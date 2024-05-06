@@ -1,1 +1,3 @@
-# rise-bkai.github.io
+## thanhlecongg.github.io
+
+[`Thanh Le-Cong`](https://thanhlecongg.github.io)
