@@ -14,7 +14,15 @@ const IndexPage = ({
 }) => {
   const { theme } = useThemeContext();
 
+  // Render research images
   const ResearchImages = home.research[theme].map((imgPath) => (
+    <div key={imgPath} className="image-container">
+      <img src={imgPath} alt={imgPath} />
+    </div>
+  ));
+
+  // Render collaborator images
+  const CollaboratorImages = home.collaborators[theme].map((imgPath) => (
     <div key={imgPath} className="image-container">
       <img src={imgPath} alt={imgPath} />
     </div>
@@ -27,10 +35,7 @@ const IndexPage = ({
       <h2>Research</h2>
       <div className="two-grids outer-container">{ResearchImages}</div>
       <h2>Collaborators</h2>
-      <div className="primary-content">{home.collaborators}</div>
-      {/* <div className="grids 5">
-        {Collaborator}
-      </div> */}
+      <div className="two-grids outer-container">{CollaboratorImages}</div>
     </Layout>
   );
 };
@@ -46,8 +51,10 @@ export const pageQuery = graphql`
           title
           description
           interests
-          collaborators
-          title
+          collaborators {
+            dark
+            light
+          }
           research {
             dark
             light
