@@ -1,11 +1,11 @@
 ---
 template: BlogPost
-path: /people/titipat
+path: /people/thanhlecong
 date: 2020-01-01T06:15:50.738Z
-title: Titipat Achakulvisut
-thumbnail: /assets/people/titipat.png
-position: PI
-metaDescription: Principal investigator
+title: Lê Công Thành
+thumbnail: /assets/people/lecongthanh.jpg
+position: leader
+metaDescription: PhD. Student
 order: 0
 ---
 

@@ -9,32 +9,61 @@ const PeoplePage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  // Filter and map current people (excluding alumni, supervisors, and leaders)
   const currentPeople = edges
     .filter(
       (edge) =>
         !!edge.node.frontmatter.date &&
-        edge.node.frontmatter.position !== "alumni",
+        edge.node.frontmatter.position !== "alumni" &&
+        edge.node.frontmatter.position !== "supervisor" &&
+        edge.node.frontmatter.position !== "leader"
     )
     .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
+  // Filter and map previous lab members (alumni)
   const prevPeople = edges
     .filter(
       (edge) =>
         !!edge.node.frontmatter.date &&
-        edge.node.frontmatter.position === "alumni",
+        edge.node.frontmatter.position === "alumni"
     )
     .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
-  console.log(edges);
+  // Filter and map supervisors
+  const supervisors = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "supervisor"
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
+
+  // Filter and map leaders
+  const leaders = edges
+    .filter(
+      (edge) =>
+        !!edge.node.frontmatter.date &&
+        edge.node.frontmatter.position === "leader"
+    )
+    .map((edge) => <PeopleLink key={edge.node.id} data={edge.node} />);
 
   return (
     <Layout>
       <HelmetWrapper title="People" />
       <h1>People</h1>
+      <h2>Supervisors</h2>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {supervisors}
+      </div>
+      <h2>Leaders</h2>
+      <div className="grids small" style={{ marginBottom: "32px" }}>
+        {leaders}
+      </div>
+      <h2>Current Lab Members</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {currentPeople}
       </div>
-      <h2>Previous lab members</h2>
+      <h2>Previous Lab Members</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
@@ -43,6 +72,7 @@ const PeoplePage = ({
 };
 
 export default PeoplePage;
+
 export const pageQuery = graphql`
   query peoplePageQuery {
     site {
