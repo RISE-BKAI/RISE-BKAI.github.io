@@ -30,7 +30,7 @@ export default ({ children }) => {
           <span role="img" aria-label="love">
             ❤️
           </span>
-          &nbsp; by <a href="https://github.com/titipata">titipata</a>
+          &nbsp; by <a href="https://github.com/manhtdd">manhtdd</a>
         </p>
       </footer>
     </div>
