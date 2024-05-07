@@ -1,9 +1,56 @@
 import { graphql } from "gatsby";
-import React from "react";
+import React, { useState } from "react";
 import HelmetWrapper from "../components/helmetWrapper";
 import Layout from "../components/layout";
 
+const RequiredWarning = ({ fieldName }) => {
+  return (
+    <span style={{ color: "#ff4542" }}>{` — ${fieldName} is required!`}</span>
+  );
+};
+
 const ContactPage = ({ data: { site } }) => {
+  const [submitted, setSubmitted] = useState(false);
+  const [formError, setFormError] = useState([]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formdata = new FormData(e.target);
+
+    const templateParams = {
+      name: formdata.get("w3lName"),
+      replyTo: formdata.get("w3lSender"),
+      subject: formdata.get("w3lSubject"),
+      message: formdata.get("w3lMessage"),
+    };
+
+    // Check required fields
+    let checkedFields = [];
+
+    Object.entries(templateParams).forEach(([key, value]) => {
+      if (!value) {
+        checkedFields.push(key);
+      } else {
+        checkedFields = checkedFields.filter((field) => field !== key);
+      }
+    });
+
+    // Set state as batch to avoid race condition
+    setFormError(checkedFields);
+
+    // If there are no errors, send email via `mailto` link
+    if (checkedFields.length === 0) {
+      const mailtoLink = `mailto:manh.td120901@gmail.com?subject=${encodeURIComponent(
+        templateParams.subject
+      )}&body=${encodeURIComponent(
+        `Name: ${templateParams.name}\nEmail: ${templateParams.replyTo}\n\n${templateParams.message}`
+      )}`;
+
+      window.location.href = mailtoLink;
+      setSubmitted(true);
+    }
+  };
+
   return (
     <Layout>
       <HelmetWrapper
@@ -16,11 +63,11 @@ const ContactPage = ({ data: { site } }) => {
           <div className="primary-content">
             If you're interested in joining the lab, collaborating, or have any
             inquiries, please don't hesitate to send us an email at
-            <a href="mailto:congthanh.le@student.unimelb.edu.au">
+            <a href="mailto:manh.td120901@gmail.com">
               {" "}
-              congthanh.le@student.unimelb.edu.au{" "}
+              manh.td120901@gmail.com{" "}
             </a>
-            or send an email to the research group directly.
+            or use the form on this page &rarr;
           </div>
           <div className="primary-content">
             <b>Student Recruitment for Research Team:</b>
@@ -82,11 +129,60 @@ const ContactPage = ({ data: { site } }) => {
           </div>
         </div>
         <div>
-          <img
-            src="/assets/logos/we-want-you.png"
-            alt="Research Lab Team"
-            style={{ width: "100%", borderRadius: "8px" }}
-          />
+          <form className="form-container" onSubmit={handleSubmit}>
+            {submitted ? (
+              <p style={{ margin: 0, lineHeight: "1.5em" }}>
+                Your message has successfully been sent! It generally takes one
+                to two days for us to reply.
+              </p>
+            ) : (
+              <>
+                <div>
+                  <label htmlFor="w3lName">
+                    Name{" "}
+                    {formError.includes("name") && (
+                      <RequiredWarning fieldName={"Name"} />
+                    )}
+                  </label>
+                  <input type="text" name="w3lName" id="w3lName" />
+                </div>
+                <div>
+                  <label htmlFor="w3lSender">
+                    Email
+                    {formError.includes("replyTo") && (
+                      <RequiredWarning fieldName={"Email"} />
+                    )}
+                  </label>
+                  <input type="email" name="w3lSender" id="w3lSender" />
+                </div>
+                <div>
+                  <label htmlFor="w3lSubject">
+                    Subject
+                    {formError.includes("subject") && (
+                      <RequiredWarning fieldName={"Subject"} />
+                    )}
+                  </label>
+                  <input type="text" name="w3lSubject" id="w3lSubject" />
+                </div>
+                <div>
+                  <label htmlFor="w3lMessage">
+                    Message
+                    {formError.includes("message") && (
+                      <RequiredWarning fieldName={"Message"} />
+                    )}
+                  </label>
+                  <textarea name="w3lMessage" id="w3lMessage"></textarea>
+                </div>
+                <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                  <input
+                    type="submit"
+                    className="button -primary"
+                    style={{ marginRight: 0 }}
+                  />
+                </div>
+              </>
+            )}
+          </form>
         </div>
       </div>
     </Layout>
