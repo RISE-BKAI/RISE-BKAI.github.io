@@ -31,7 +31,12 @@ const IndexPage = ({
   // Render lab images (for the slider)
   const LabImages = home.labImage[theme].map((imgPath) => (
     <div key={imgPath} className="image-container">
-      <img src={imgPath} alt={imgPath} style={{ width: "100%" }} />
+      <img
+        src={imgPath}
+        alt={imgPath}
+        className="lab-slide-image"
+        style={{ width: "100%" }}
+      />
     </div>
   ));
 
@@ -46,7 +51,6 @@ const IndexPage = ({
     <Layout>
       <HelmetWrapper />
       <HeroHeader />
-      <h2>Research</h2>
       <div className="outer-container">
         <Slider {...sliderSettings}>{LabImages}</Slider>
       </div>
