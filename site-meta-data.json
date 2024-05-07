@@ -19,14 +19,20 @@
         "/assets/logos/smu.png"
       ]
     },
-    "research": {
+    "labImage": {
       "light": [
-        "/assets/logos/science-of-science-light.png",
-        "/assets/logos/applied-ml-nlp-light.png"
+        "/assets/logos/1.jpg",
+        "/assets/logos/2.jpg",
+        "/assets/logos/3.jpg",
+        "/assets/logos/4.jpg",
+        "/assets/logos/5.jpg"
       ],
       "dark": [
-        "/assets/logos/science-of-science-dark.png",
-        "/assets/logos/applied-ml-nlp-dark.png"
+        "/assets/logos/1.jpg",
+        "/assets/logos/2.jpg",
+        "/assets/logos/3.jpg",
+        "/assets/logos/4.jpg",
+        "/assets/logos/5.jpg"
       ]
     }
   }

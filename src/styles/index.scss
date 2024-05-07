@@ -9,11 +9,14 @@
 
   img {
     max-width: 100%;
-    width: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
   }
 
   &.funder {
     padding: 8px;
     margin-bottom: 0;
+    max-width: 200px;
   }
 }
