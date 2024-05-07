@@ -50,7 +50,7 @@ const PeoplePage = ({
   return (
     <Layout>
       <HelmetWrapper title="People" />
-      <h1>People</h1>
+      <h1>Team Members</h1>
       <h2>Supervisors</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {supervisors}

@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Trần Đức Mạnh
 thumbnail: /assets/people/ducmanhtran.jpg
 position: member
-metaDescription: PhD. Student
+metaDescription: Undergraduate Student
 order: 0
 ---
 

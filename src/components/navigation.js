@@ -4,7 +4,7 @@ import ThemeChanger from "../components/themeChanger";
 
 export default (props) => (
   <nav className="navigation">
-    <Link to="/people">People</Link>
+    <Link to="/people">Team</Link>
     <Link to="/publications">Publications</Link>
     <Link to="/blog">Blogs</Link>
     <Link to="/resources">Resources</Link>
