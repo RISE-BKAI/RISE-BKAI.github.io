@@ -47,6 +47,16 @@ const IndexPage = ({
     </div>
   ));
 
+  // Render news
+  const News = home.news.map((item, index) => (
+    <li key={index}>
+      <b>[{item.date}]</b> {item.content}{" "}
+      <a href={item.link} target="_blank" rel="noopener noreferrer">
+        [Read more]
+      </a>
+    </li>
+  ));
+
   return (
     <Layout>
       <HelmetWrapper />
@@ -54,6 +64,8 @@ const IndexPage = ({
       <div className="outer-container">
         <Slider {...sliderSettings}>{LabImages}</Slider>
       </div>
+      <h2>News</h2>
+      <ul className="news-list">{News}</ul>
       <h2>Collaborators</h2>
       <div className="grids outer-container small small-on-mobile">
         {CollaboratorImages}
@@ -73,11 +85,16 @@ export const pageQuery = graphql`
           title
           description
           interests
-          collaborators {
+          labImage {
             dark
             light
           }
-          labImage {
+          news {
+            date
+            content
+            link
+          }
+          collaborators {
             dark
             light
           }
