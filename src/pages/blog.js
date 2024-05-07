@@ -16,7 +16,7 @@ const BlogPage = ({
   return (
     <Layout>
       <HelmetWrapper title="Blogs" />
-      <h1>Blogs</h1>
+      <h1>News</h1>
       <div className="grids">{Posts}</div>
     </Layout>
   );
