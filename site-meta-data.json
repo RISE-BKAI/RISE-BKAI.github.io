@@ -10,23 +10,58 @@
     "news": [
       {
         "date": "May 2024",
-        "content": "We are recruiting new members",
+        "content": "We are recruiting new members.",
         "link": "https://rise-bkai.github.io/contact"
       },
       {
         "date": "April 2024",
-        "content": "One of our member, Nguyen Phuc Thanh, got accepted into Singapore Management University as Research Engineer",
+        "content": "One of our members, Nguyen Phuc Thanh, has been accepted into Singapore Management University as a Research Engineer.",
         "link": "https://rise-bkai.github.io/people/phucthanhnguyen"
       },
       {
         "date": "March 2024",
-        "content": "Our paper entitled LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss is accepted by International Conference on Evaluation and Assessment in Software Engineering (EASE).",
+        "content": "Our paper, titled *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, has been accepted at the International Conference on Evaluation and Assessment in Software Engineering (EASE).",
         "link": "https://thanhlecongg.github.io/pdf/EASE_LEGION.pdf"
       },
       {
         "date": "February 2024",
-        "content": "One of our member, Le Quoc Hung, got accepted into North Carolina State University as PhD. Student",
+        "content": "One of our members, Le Quoc Hung, has been accepted into North Carolina State University as a Ph.D. student.",
         "link": "https://rise-bkai.github.io/people/quochungle"
+      },
+      {
+        "date": "February 2024",
+        "content": "Congratulations to Le Cong Thanh on receiving an Amazon Internship Offer.",
+        "link": "https://rise-bkai.github.io/people/lecongthanh"
+      },
+      {
+        "date": "2024",
+        "content": "Congratulations to Nguyen Huu Hung on being accepted into Singapore Management University as a Ph.D. student.",
+        "link": "https://rise-bkai.github.io/people/huuhungnguyen"
+      },
+      {
+        "date": "2024",
+        "content": "Congratulations to Bui Ngoc Tan on being accepted into Singapore Management University as a Ph.D. student.",
+        "link": "https://rise-bkai.github.io/people/ngoctanbui"
+      },
+      {
+        "date": "October 2023",
+        "content": "Congratulations to Le Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
+        "link": "https://rise-bkai.github.io/people/lecongthanh"
+      },
+      {
+        "date": "2023",
+        "content": "One of our members, Nguyen Huu Hung, has been accepted into Singapore Management University as a Research Engineer.",
+        "link": "https://rise-bkai.github.io/people/huuhungnguyen"
+      },
+      {
+        "date": "2023",
+        "content": "One of our members, Bui Ngoc Tan, has been accepted into Singapore Management University as a Research Engineer.",
+        "link": "https://rise-bkai.github.io/people/ngoctanbui"
+      },
+      {
+        "date": "August 2021",
+        "content": "Congratulations to Le Cong Thanh on receiving the Best Thesis Award.",
+        "link": "https://rise-bkai.github.io/people/lecongthanh"
       }
     ],
     "collaborators": {
@@ -43,16 +78,16 @@
     },
     "labImage": {
       "light": [
-        "/assets/logos/1.jpg",
+        "/assets/logos/1.jpeg",
         "/assets/logos/2.jpg",
-        "/assets/logos/3.jpg",
+        "/assets/logos/3.jpeg",
         "/assets/logos/4.jpg",
         "/assets/logos/5.jpg"
       ],
       "dark": [
-        "/assets/logos/1.jpg",
+        "/assets/logos/1.jpeg",
         "/assets/logos/2.jpg",
-        "/assets/logos/3.jpg",
+        "/assets/logos/3.jpeg",
         "/assets/logos/4.jpg",
         "/assets/logos/5.jpg"
       ]
