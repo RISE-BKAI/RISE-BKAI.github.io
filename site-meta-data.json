@@ -9,19 +9,24 @@
     "interests": "Software Engineering | Artificial Intelligence | Automated Tools | Developer Productivity",
     "news": [
       {
-        "date": "Oct 2023",
-        "content": "I have been awarded Google PhD Fellowships in Programming Technology and Software Engineering. Huge thanks to my advisors, colleagues, and collaborators!",
-        "link": "https://www.google.com/fellowships"
+        "date": "May 2024",
+        "content": "We are recruiting new members",
+        "link": "https://rise-bkai.github.io/contact"
       },
       {
-        "date": "Jul 2023",
-        "content": "Our paper entitled \"Are We Ready to Embrace Generative AI for Software Q&A?\" is accepted by ASE 2023.",
-        "link": "https://www.aseconference.org"
+        "date": "April 2024",
+        "content": "One of our member, Nguyen Phuc Thanh, got accepted into Singapore Management University as Research Engineer",
+        "link": "https://rise-bkai.github.io/people/phucthanhnguyen"
       },
       {
-        "date": "May 2023",
-        "content": "Our paper entitled \"Multi-granularity Detector for Vulnerability Fixes\" is accepted by IEEE Transactions on Software Engineering.",
-        "link": "https://ieeexplore.ieee.org/document/123456789"
+        "date": "March 2024",
+        "content": "Our paper entitled LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss is accepted by International Conference on Evaluation and Assessment in Software Engineering (EASE).",
+        "link": "https://thanhlecongg.github.io/pdf/EASE_LEGION.pdf"
+      },
+      {
+        "date": "February 2024",
+        "content": "One of our member, Le Quoc Hung, got accepted into North Carolina State University as PhD. Student",
+        "link": "https://rise-bkai.github.io/people/quochungle"
       }
     ],
     "collaborators": {
