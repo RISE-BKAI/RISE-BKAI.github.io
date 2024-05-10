@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import HelmetWrapper from "../components/helmetWrapper";
 import Layout from "../components/layout";
 
@@ -35,19 +36,25 @@ const ContactPage = ({ data: { site } }) => {
       }
     });
 
-    // Set state as batch to avoid race condition
     setFormError(checkedFields);
 
-    // If there are no errors, send email via `mailto` link
     if (checkedFields.length === 0) {
-      const mailtoLink = `mailto:manh.td120901@gmail.com?subject=${encodeURIComponent(
-        templateParams.subject
-      )}&body=${encodeURIComponent(
-        `Name: ${templateParams.name}\nEmail: ${templateParams.replyTo}\n\n${templateParams.message}`
-      )}`;
-
-      window.location.href = mailtoLink;
-      setSubmitted(true);
+      emailjs
+        .send(
+          "service_uqpndcg", // Replace with your EmailJS Service ID
+          "template_m09ybqm", // Replace with your EmailJS Template ID
+          templateParams,
+          "t2_39GqpP09bl4pnN" // Replace with your EmailJS User ID
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setSubmitted(true);
+          },
+          (error) => {
+            console.error(error.text);
+          }
+        );
     }
   };
 
