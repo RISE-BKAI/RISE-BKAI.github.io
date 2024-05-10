@@ -6,7 +6,7 @@ title: Bùi Ngọc Tân
 thumbnail: /assets/people/ngoctanbui.jpg
 position: alumni
 endYear: 2023
-metaDescription: PhD. Student of SMU
+metaDescription: PhD Student at Singapore Management University
 order: 3
 ---
 
