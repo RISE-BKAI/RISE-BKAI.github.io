@@ -70,9 +70,9 @@ const ContactPage = ({ data: { site } }) => {
           <div className="primary-content">
             If you're interested in joining the lab, collaborating, or have any
             inquiries, please don't hesitate to send us an email at
-            <a href="mailto:manh.td120901@gmail.com">
+            <a href="mailto:rise.bkai@gmail.com">
               {" "}
-              manh.td120901@gmail.com{" "}
+              rise.bkai@gmail.com{" "}
             </a>
             or use the form on this page &rarr;
           </div>
