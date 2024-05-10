@@ -9,4 +9,4 @@ metaDescription: Undergraduate Student
 order: 3
 ---
 
-Please checkout [my personal page](https://users.soict.hust.edu.vn/thanghq/?fbclid=IwAR2VaQ-JSrqiP-WFBaP8wqQMsfEwQ9ep10KAqNoQY63w2lZWPJuHPdgT8kQ).
+Please checkout [my personal page](https://www.linkedin.com/in/d%C6%B0%C6%A1ng-nguy%E1%BB%85n-%C4%91%C4%83ng-7ba5222a7/).
