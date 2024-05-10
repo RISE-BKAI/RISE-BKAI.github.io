@@ -1,88 +1,35 @@
-- title: "Science Concierge: A fast content-based recommendation system for scientific publications"
-  authors: T Achakulvisut, DE Acuna, T Ruangrong, K Kording
-  journal: PloS one 11 (7), e0158423
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
-  year: 2016
-- title: "Intellectual synthesis in mentorship determines success in academic careers"
-  authors: JF Liénard, T Achakulvisut, DE Acuna, SV David
-  journal: Nature communications 9 (1), 1-13
-  url: https://www.nature.com/articles/s41467-018-07034-y
-  year: 2018
-- title: "DeepCut: A Thai word tokenization library using Deep Neural Network"
-  authors: R Kittinaradorn, T Achakulvisut, K Chaovavanich, K Srithaworn, P Chormai, C Kaewkasi, T Ruangrong, K Oparad
-  journal: ""
-  url: https://github.com/rkcosmos/deepcut
-  year: 2019
-- title: "Claim extraction in biomedical publications using deep discourse model and transfer learning"
-  authors: T Achakulvisut, C Bhagavatula, D Acuna, K Kording
-  journal: arXiv preprint arXiv:1907.00962
-  url: https://arxiv.org/pdf/1907.00962.pdf
-  year: 2019
-- title: "Point of view: Improving on legacy conferences by moving online"
-  authors: Titipat Achakulvisut, Tulakan Ruangrong, Isil Bilgin, Sofie Van Den Bossche, Brad Wyble, Dan FM Goodman, Konrad P Kording
-  journal: Elife 9, e57892
-  url: https://elifesciences.org/articles/57892
-  year: 2020
-  pdf: /assets/publications/titipat-elife-2020.pdf
-- title: "Pyglmnet: Python implementation of elastic-net regularized generalized linear models"
-  authors: M Jas, T Achakulvisut, A Idrizović, D Acuna, M Antalek, V Marques, ...
-  journal: Journal of Open Source Software 5 (47)
-  url: https://biblio.ugent.be/publication/8650816/file/8650817
-  year: 2020
-- title: "neuromatch: Algorithms to match scientists"
-  authors: T Achakulvisut, T Ruangrong, DE Acuna, B Wyble, D Goodman, K Kording
-  journal: eLife
-  url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
-  year: 2020
-- title: "Pubmed parser: a Python parser for PubMed Open-Access XML subset and MEDLINE XML dataset XML dataset"
-  authors: T Achakulvisut, DE Acuna, K Kording
-  journal: Journal of Open Source Software 5 (46), 1979
-  url: https://joss.theoj.org/papers/10.21105/joss.01979.pdf
-  year: 2020
-- title: "Neuromatch Academy: Teaching Computational Neuroscience with global accessibility"
-  authors: T van Viegen, A Akrami, K Bonnen, E DeWitt, A Hyafil, H Ledmyr, ...
-  journal: Trends in Cognitive Sciences
-  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000954?dgcid=author
-  year: 2020
-- title: "Towards Democratizing and Automating Online Conferences: Lessons from the Neuromatch Conferences"
-  authors: T Achakulvisut, T Ruangrong, P Mineault, TP Vogels, MAK Peters, ...
-  journal: Trends in Cognitive Sciences
-  url: https://www.sciencedirect.com/science/article/abs/pii/S1364661321000097
-  year: 2021
-  pdf: /assets/publications/titipat-tics-2021.pdf
-- title: "AI Builders: Teaching Thai Students to BuildEnd-to-End Machine Learning Projects Online"
-  authors: C Polpanumas, P Limkonchotiwat, B Matupumanon, C Chaksangchaichot, N Chumlek, N Phaphoom, P Siwatammarat, P Laohapiengsak, S Amornpornwiwat, W Daroontham1, E Chuangsuwanich, K Kulruchakorn, SNutanong, T Achakulvisut
-  journal: 2021 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)
-  year: 2021
-  url: https://ieeexplore.ieee.org/document/9678620
-  pdf: /assets/publications/aibuilders-tale2021.pdf
-- title: "Multitask learning via pseudo-label generation and ensemble prediction for parasitic egg cell detection: IEEE ICIP Challenge 2022"
-  authors: Aung ZH, Srithaworn K, Achakulvisut T
-  journal: IEEE International Conference on Image Processing (ICIP)
-  year: 2022
-  url: https://ieeexplore.ieee.org/abstract/document/9897464
-  pdf: /assets/publications/parasitic-detection-ieeeicip2022.pdf
-  github: https://github.com/biodatlab/icip-challenge-2022
-- title: "Machine Learning Assisted Real-Time PCR and High-Resolutation Melt (qPCR-HRM) Analysis for SARS-CoV-2 Variant Identification"
-  authors: S Promja, J Puenpa, T Achakulvisut, Y Poovorawan, Y Su, P Athamanolap, B Lertanatawong
-  journal: Analytical Chemistry
-  year: 2023
-  url: https://pubs.acs.org/doi/full/10.1021/acs.analchem.2c05112
-- title: "Deep Learning-Based Object Detection And Bacteria Morphological Feature Extraction For Antibiotic Mode Of Action Study"
-  authors: K Chotayapa, T Leethamchayo, P Chinnawong, T Samernate, P Nonejuie, T Achakulvisut
-  journal: 2023 15th Biomedical Engineering International Conference (BMEiCON)
-  year: 2023
-  url: https://ieeexplore.ieee.org/document/10322010
-  pdf: /assets/publications/bacteria-det-bmeicon2023.pdf
-  github: https://github.com/biodatlab/bacteria-detection
-- title: Combined Channel and Spatial Attention-Based Stereo Endoscopic Image Super-Resolution
-  authors: M Hayat, S Aramvith, T Achakulvisut
-  journal: TENCON 2023 - 2023 IEEE Region 10 Conference (TENCON)
-  year: 2023
-  url: https://ieeexplore.ieee.org/document/10322331
-- title: Myocardial scar and left ventricular ejection fraction classification for electrocardiography image using multi-task deep learning
-  authors: A Boribalburephan, S Treewaree, N Tantisiriwat, A Yindeengam, T Achakulvisut, R Krittayaphong
-  journal: Scientific Reports
+- title: "LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss "
+  authors: Yen-Trang Dang, Thanh Le-Cong, Phuc-Thanh Nguyen, Anh M. T. Bui, Phuong T. Nguyen, Bach Le, Quyet-Thang Huynh
+  journal: International Conference on Evaluation and Assessment in Software Engineering (EASE, Rank A)
+  url: https://arxiv.org/pdf/2403.05873
   year: 2024
-  url: https://www.nature.com/articles/s41598-024-58131-6
-  github: https://github.com/biodatlab/multitask-vision-ecg/
+
+- title: "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"
+  authors: Yen-Trang Dang, Thanh Le-Cong, Phuc-Thanh Nguyen, Anh M. T. Bui, Phuong T. Nguyen, Bach Le, Quyet-Thang Huynh
+  journal: IEEE Transactions on Software Engineering (TSE, ISI Q1, Impact Factor: 9.32)
+  url: https://arxiv.org/pdf/2301.01113
+  year: 2023
+
+- title: "AutoPruner: Transformer-Based Call Graph Pruning"
+  authors: Thanh Le-Cong, Hong Jin Kang, Truong Giang Nguyen, Stefanus Agus Haryono, David Lo, Bach Le, and Thang Huynh Quyet
+  journal: ACM 30th Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE, Rank A*)
+  url: https://arxiv.org/pdf/2209.03230
+  year: 2023
+
+- title: "FFL: Fine-grained Fault Localization for Student Programs via Syntactic and Semantic Reasoning"
+  authors: Thanh-Dat Nguyen, Thanh Le-Cong, Duc-Minh Luong, Van-Hai Duong, Bach Le, David Lo, and Quyet-Thang Huynh
+  journal: IEEE 38th International Conference on Software Maintenance and Evolution (ICSME, Rank A)
+  url: https://ieeexplore.ieee.org/abstract/document/9978180
+  year: 2023
+
+- title: "Toward the Analysis of Graph Neural Networks"
+  authors: Thanh-Dat Nguyen+, Thanh Le-Cong+, ThanhVu H. Nguyen, Bach Le, and Quyet-Thang Huynh
+  journal: IEEE/ACM 44th International Conference on Software Engineering (ICSE, Rank A*)
+  url: https://arxiv.org/pdf/2201.00115
+  year: 2023
+
+- title: "Usability and Aesthetics: Better Together for Automated Repair of Web Pages"
+  authors: Thanh Le-Cong, Bach Le, Quyet-Thang Huynh, and Phi Le Nguyen
+  journal: IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE,, Rank A)
+  url: https://arxiv.org/pdf/2201.00117
+  year: 2022
