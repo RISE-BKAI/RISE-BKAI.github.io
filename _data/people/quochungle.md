@@ -6,7 +6,7 @@ title: Lê Quốc Hưng
 thumbnail: /assets/people/quochungle.jpeg
 position: alumni
 endYear: 2024
-metaDescription: ""
+metaDescription: "PhD Student at North Carolina State University"
 order: 3
 ---
 
