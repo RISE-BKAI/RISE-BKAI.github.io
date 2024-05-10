@@ -6,62 +6,47 @@
   "home": {
     "title": "RISE-BKAI Lab @ Hanoi University of Science and Technology",
     "description": "Our research group is headed by Prof. Huynh Quyet Thang. Our members include faculty members, graduate students, and undergraduate students from Hanoi University of Science and Technology. Besides, we have collaborated with prestigious professors and researchers at world-class universities such as The University of Melbourne and Singapore Management University. Our team primarily works at the intersection of software engineering and artificial intelligence. We are mainly focusing on automated tools that can improve the reliability, transparency, and performance of Software and AI systems and increase developer productivity. Our works have been published in major and premier conferences and journals in software engineering and related fields such as IEEE TSE, ICSE, ESEC/FSE, and ICSME.",
-    "interests": "Software Engineering | Artificial Intelligence | Automated Tools | Developer Productivity",
+    "interests": "Intelligent Software Engineering | AI for Software Engineering | AI for Code",
     "news": [
       {
         "date": "May 2024",
-        "content": "We are recruiting new members.",
+        "content": "We are recruiting new members !!!",
         "link": "https://rise-bkai.github.io/contact"
       },
       {
         "date": "April 2024",
-        "content": "One of our members, Nguyen Phuc Thanh, has been accepted into Singapore Management University as a Research Engineer.",
+        "content": "Congrats Nguyen Phuc Thanh on receiving research engineer offer from Singapore Management University.",
         "link": "https://rise-bkai.github.io/people/phucthanhnguyen"
       },
       {
         "date": "March 2024",
-        "content": "Our paper, titled *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, has been accepted at the International Conference on Evaluation and Assessment in Software Engineering (EASE).",
+        "content": "Our paper, titled *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, has been accepted at the International Conference on Evaluation and Assessment in Software Engineering (EASE, Rank A). Congrats Trang on her first paper as first author.",
         "link": "https://thanhlecongg.github.io/pdf/EASE_LEGION.pdf"
       },
       {
         "date": "February 2024",
-        "content": "One of our members, Le Quoc Hung, has been accepted into North Carolina State University as a Ph.D. student.",
+        "content": "Congrats Le Quoc Hung on receiving PhD offer from North Carolina State University (#3 US in Software Engineering - CSRanking)",
         "link": "https://rise-bkai.github.io/people/quochungle"
       },
       {
         "date": "February 2024",
-        "content": "Congratulations to Le Cong Thanh on receiving an Amazon Internship Offer.",
+        "content": "Congrats to Le Cong Thanh on receiving an Amazon Internship Offer.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
-      },
-      {
-        "date": "2024",
-        "content": "Congratulations to Nguyen Huu Hung on being accepted into Singapore Management University as a Ph.D. student.",
-        "link": "https://rise-bkai.github.io/people/huuhungnguyen"
-      },
-      {
-        "date": "2024",
-        "content": "Congratulations to Bui Ngoc Tan on being accepted into Singapore Management University as a Ph.D. student.",
-        "link": "https://rise-bkai.github.io/people/ngoctanbui"
       },
       {
         "date": "October 2023",
-        "content": "Congratulations to Le Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
+        "content": "Congrats to Le Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
       },
       {
-        "date": "2023",
-        "content": "One of our members, Nguyen Huu Hung, has been accepted into Singapore Management University as a Research Engineer.",
+        "date": "August 2023",
+        "content": "Congrats to Nguyen Huu Hung and Bui Ngoc Tan  on receiving PhD offer from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
         "link": "https://rise-bkai.github.io/people/huuhungnguyen"
       },
       {
-        "date": "2023",
-        "content": "One of our members, Bui Ngoc Tan, has been accepted into Singapore Management University as a Research Engineer.",
-        "link": "https://rise-bkai.github.io/people/ngoctanbui"
-      },
-      {
-        "date": "August 2021",
-        "content": "Congratulations to Le Cong Thanh on receiving the Best Thesis Award.",
-        "link": "https://rise-bkai.github.io/people/lecongthanh"
+        "date": "February 2023",
+        "content": "Congrats to Nguyen Huu Hung and Bui Ngoc Tan on receiving research internship from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
+        "link": "https://rise-bkai.github.io/people/huuhungnguyen"
       }
     ],
     "collaborators": {
