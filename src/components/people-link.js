@@ -22,7 +22,7 @@ const PeopleLink = ({ data }) => (
         <div className="post-meta">{data.frontmatter.metaDescription}</div>
       ) : (
         <div className="post-meta">
-          {`Joined as ${data.frontmatter.metaDescription}, ${data.frontmatter.endYear}`}
+          {`Graduated since ${data.frontmatter.endYear}. ${data.frontmatter.metaDescription}`}
         </div>
       )}
     </header>
