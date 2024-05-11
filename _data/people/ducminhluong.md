@@ -6,7 +6,7 @@ title: Lương Đức Minh
 thumbnail: /assets/people/ducminhluong.jpg
 position: alumni
 endYear: 2022
-metaDescription: ""
+metaDescription: "BrSE at Sun Asterisk, Japan"
 order: 3
 ---
 
