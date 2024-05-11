@@ -59,13 +59,13 @@
         "/assets/logos/unimelb.png",
         "/assets/logos/ncuni.png",
         "/assets/logos/smu.png",
-        "/assets/logos/laquila.png"
+        "/assets/logos/laquila_light.png"
       ],
       "dark": [
         "/assets/logos/unimelb.png",
         "/assets/logos/ncuni.png",
         "/assets/logos/smu.png",
-        "/assets/logos/laquila.png"
+        "/assets/logos/laquila_dark.png"
       ]
     },
     "labImage": {
