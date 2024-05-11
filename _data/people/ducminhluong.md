@@ -2,7 +2,7 @@
 template: BlogPost
 path: /people/ducminhluong
 date: 2022-02-01T06:15:50.738Z
-title: Lê Quốc Hưng
+title: Lương Đức Minh
 thumbnail: /assets/people/ducminhluong.jpg
 position: alumni
 endYear: 2022
