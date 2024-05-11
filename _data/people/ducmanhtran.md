@@ -4,8 +4,8 @@ path: /people/ducmanhtran
 date: 2020-01-01T06:15:50.738Z
 title: Trần Đức Mạnh
 thumbnail: /assets/people/ducmanhtran.jpg
-position: member
-metaDescription: Undergraduate Student
+position: leader
+metaDescription: Undergraduate Student. Incoming Research Engineer at Singapore Management University
 order: 2
 ---
 
