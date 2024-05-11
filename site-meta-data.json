@@ -10,12 +10,12 @@
     "news": [
       {
         "date": "May 2024",
-        "content": "We are recruiting new members !!!",
+        "content": "We are actively recruiting new members !!! Please do hesitage to reach out us.",
         "link": "https://rise-bkai.github.io/contact"
       },
       {
         "date": "April 2024",
-        "content": "Congrats Nguyen Phuc Thanh on receiving research engineer offer from Singapore Management University.",
+        "content": "Congrats Phuc Thanh on receiving research engineer offer from Singapore Management University.",
         "link": "https://rise-bkai.github.io/people/phucthanhnguyen"
       },
       {
@@ -25,27 +25,32 @@
       },
       {
         "date": "February 2024",
-        "content": "Congrats Le Quoc Hung on receiving PhD offer from North Carolina State University (#3 US in Software Engineering - CSRanking)",
-        "link": "https://rise-bkai.github.io/people/quochungle"
+        "content": "Congrats Quoc Hung on receiving PhD offer from North Carolina State University (#3 US in Software Engineering - CSRanking)",
+        "link": ""
       },
       {
         "date": "February 2024",
-        "content": "Congrats to Le Cong Thanh on receiving an Amazon Internship Offer.",
+        "content": "Congrats Quoc Hung and Trang on achieving the highest score in their thesis defense commitee",
+        "link": ""
+      },
+      {
+        "date": "February 2024",
+        "content": "Congrats to Cong Thanh on receiving an Amazon Internship Offer.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
       },
       {
         "date": "October 2023",
-        "content": "Congrats to Le Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
+        "content": "Congrats to Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
       },
       {
         "date": "August 2023",
-        "content": "Congrats to Nguyen Huu Hung and Bui Ngoc Tan  on receiving PhD offer from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
+        "content": "Congrats to Huu Hung and Tan on receiving PhD offer from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
         "link": "https://rise-bkai.github.io/people/huuhungnguyen"
       },
       {
         "date": "February 2023",
-        "content": "Congrats to Nguyen Huu Hung and Bui Ngoc Tan on receiving research internship from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
+        "content": "Congrats to Huu Hung and Tan on receiving research internship from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
         "link": "https://rise-bkai.github.io/people/huuhungnguyen"
       }
     ],
