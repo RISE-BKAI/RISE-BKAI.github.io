@@ -1,3 +1,6 @@
 - name: "DefectGuard: An Integrated, Efficient and Effective Tool for JIT Defect Prediction"
   url: https://github.com/manhtdd/DefectGuard-the-Package
   description: "A cutting-edge defect prediction tool with up-to-date Just-in-Time techniques and a robust API, empowering software development teams to proactively identify and mitigate defects in real-time."
+- name: "LEGION: A LLM-based recommendation system for GitHub topics"
+  url: https://github.com/RISE-BKAI/LEGION
+  description: "A LLM-powerred tool for recommending GitHub topics"
