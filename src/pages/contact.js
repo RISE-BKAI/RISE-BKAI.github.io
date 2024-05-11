@@ -89,12 +89,9 @@ const ContactPage = ({ data: { site } }) => {
             professional, scientific research. The research topics include but
             are not limited to:
             <ul>
-              <li>Automated Bug Fixing</li>
-              <li>Just-in-time Defect Prediction</li>
-              <li>Automatic Code Summarization</li>
+              <li>AI for Software Engineering</li>
+              <li>Large Language Models for Code-related tasks, e.g., Bug Detection, Bug Fixing and Code Generation</li>
               <li>Software Supply Chain Security</li>
-              <li>Automated Software Verification</li>
-              <li>Bidirectional Programming</li>
             </ul>
             The position holder will be required to perform the following tasks:
             <ul>
@@ -123,12 +120,32 @@ const ContactPage = ({ data: { site } }) => {
               </li>
               <li>
                 Good background in Deep Learning or Program Analysis/Software
-                Testing or Web Development
+                Testing
               </li>
               <li>Strong programming skills</li>
               <li>English skills: reading and writing (optional)</li>
             </ul>
           </div>
+          <div className="primary-content">
+            <b>Opportunities & Benefit:</b>
+            <ul>
+              <li>
+                To work on cutting-edge research topics in Software Engineering and Artificial Intelligence;
+              </li>
+              <li>
+                To be instructed and collaborated by/with prestigious professors and researchers from HUST and collaborated universities, e.g., University of Melbourne, and Singapore Management University;
+              </li>
+              <li>
+                To work in a professional, open-minded environment with energetic and experienced colleagues;
+              </li>
+              <li>
+                To have publications in top-tier journals and conferences in Software Engineering and Artificial Intelligence;
+              </li>
+              <li>
+                To be supported in applying for the scholarship in developed countries, e.g., US, Singapore and Australia, for postgraduate (Master's or Ph.D.).
+              </li>
+            </ul>
+          </div>     
           <div className="primary-content">
             <b>Office:</b> Hanoi University of Science and Technology, B1
             Building, Room 409, Tran Dai Nghia Road, Hai Ba Trung District,
