@@ -17,7 +17,7 @@ const PublicationPage = ({
 
   return (
     <Layout>
-      <HelmetWrapper title="Publications" />
+      <HelmetWrapper title="Selected Publications" />
       <h1>Publications</h1>
       <div className="primary-content"></div>
       <div className="primary-content">{Publication}</div>
