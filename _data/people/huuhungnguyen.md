@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /people/ngoctanbui
+path: /people/huuhungnguyen
 date: 2022-02-01T06:15:50.738Z
-title: Bùi Ngọc Tân
+title: Nguyễn Hữu Hưng
 thumbnail: /assets/people/huuhungnguyen.jpg
 position: alumni
 endYear: 2023
