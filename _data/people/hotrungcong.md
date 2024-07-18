@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/hotrungcong
 date: 2022-02-01T06:15:50.738Z
 title: Hồ Trung Công
-thumbnail: /assets/people/hotrungcong.jpg
+thumbnail: /assets/people/hotrungcong.jpeg
 position: alumni
 endYear: 2024
 metaDescription: "Thesis Student"
