@@ -4,3 +4,6 @@
 - name: "LEGION: A LLM-based recommendation system for GitHub topics"
   url: https://github.com/RISE-BKAI/LEGION
   description: "A LLM-powerred tool for recommending GitHub topics"
+- name: "DefectSource: Advanced Defect Prediction for GitHub-Like Platforms"
+  url: https://github.com/RISE-BKAI/DefectSource
+  description: "DefectSource provides comprehensive defect prediction and management for GitHub-like applications. With cutting-edge Just-in-Time defect prediction techniques, DefectSource enables developers to proactively detect and resolve defects, ensuring smoother and more reliable software development processes."
