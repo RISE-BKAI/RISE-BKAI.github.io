@@ -52,9 +52,9 @@ const IndexPage = ({
   // Render news
   const News = home.news.map((item, index) => (
     <li key={index}>
-      <b>[{item.date}]</b> {item.content}{" "}
+      <b>[{language === "en" ? item.date : item.datevn}]</b> {language === "en" ? item.content : item.contentvn}{" "}
       <a href={item.link} target="_blank" rel="noopener noreferrer">
-        [Read more]
+        [{language === "en" ? "Read more" : "Đọc thêm"}]
       </a>
     </li>
   ));
@@ -86,15 +86,20 @@ export const pageQuery = graphql`
         description
         home {
           title
+          titlevn
           description
+          descriptionvn
           interests
+          interestsvn
           labImage {
             dark
             light
           }
           news {
             date
+            datevn
             content
+            contentvn
             link
           }
           collaborators {
