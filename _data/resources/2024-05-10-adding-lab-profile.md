@@ -3,6 +3,7 @@ template: BlogPost
 path: /resources/adding-lab-profile
 date: 2024-05-10T13:00:00.137Z
 title: Adding Your Profile to the Lab Webpage
+titlevn: Thêm profile của bạn vào trang web của Lab
 thumbnail: ""
 metaDescription: How to add and customize your profile on the lab webpage
 ---

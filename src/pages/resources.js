@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import ResourceLink from "../components/resource-link";
 import PostLink from "../components/post-link";
 import HelmetWrapper from "../components/helmetWrapper";
+import { useLanguageContext } from "../contexts/language-context";
 
 const ResourcePage = ({
   data: {
@@ -11,9 +12,13 @@ const ResourcePage = ({
     allMarkdownRemark: { edges: mdEdges },
   },
 }) => {
+  const { language } = useLanguageContext();
+
   const Resources = yamlEdges
     .filter((edge) => !!edge.node.name)
-    .map((edge) => <ResourceLink key={edge.node.id} resource={edge.node} />);
+    .map((edge) => (
+      <ResourceLink key={edge.node.id} resource={edge.node} language={language} />
+    ));
 
   const Posts = mdEdges
     .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
@@ -21,18 +26,33 @@ const ResourcePage = ({
 
   return (
     <Layout>
-      <HelmetWrapper title="Resources" />
-      <h1>Resources</h1>
-      <h2>Tools</h2>
+      <HelmetWrapper title={language === "en" ? "Resources" : "Tài nguyên"} />
+      <h1>{language === "en" ? "Resources" : "Tài nguyên"}</h1>
+      <h2>{language === "en" ? "Tools" : "Công cụ"}</h2>
       <div className="primary-content">
-        Our lab built multiple tools which are available to use. You can check
-        some of them below
+        {language === "en" ? (
+          <>
+            Our lab built multiple tools which are available to use. You can check some of them below
+          </>
+        ) : (
+          <>
+            Phòng thí nghiệm của chúng tôi đã xây dựng nhiều công cụ có sẵn để sử dụng. Bạn có thể kiểm tra một số trong số chúng dưới đây
+          </>
+        )}
         <div className="grids">{Resources}</div>
       </div>
 
-      <h2>Resources</h2>
+      <h2>{language === "en" ? "Resources" : "Tài nguyên"}</h2>
       <div className="primary-content">
-        Curated some good resources when joining the lab.
+        {language === "en" ? (
+          <>
+            Curated some good resources when joining the lab.
+          </>
+        ) : (
+          <>
+            Đã chọn lọc một số tài nguyên tốt khi tham gia phòng thí nghiệm.
+          </>
+        )}
         <div className="grids">{Posts}</div>
       </div>
     </Layout>
@@ -53,6 +73,7 @@ export const pageQuery = graphql`
         node {
           id
           description
+          descriptionvn
           name
           url
         }
@@ -70,6 +91,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            titlevn
             thumbnail
           }
         }

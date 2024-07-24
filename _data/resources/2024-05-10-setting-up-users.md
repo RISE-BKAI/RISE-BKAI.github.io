@@ -3,6 +3,7 @@ template: BlogPost
 path: /resources/setting-up-users-for-server
 date: 2024-05-10T12:00:00.137Z
 title: Using Our Lab Server
+titlevn: Sử dụng server
 thumbnail: ""
 metaDescription: Guide for setting up users on the lab server
 ---
