@@ -12,7 +12,9 @@ const HeroHeader = () => {
               title
               titlevn
               description
+              descriptionvn
               interests
+              interestsvn
             }
           }
         }
@@ -29,12 +31,14 @@ const HeroHeader = () => {
       </div>
       <div
         className="primary-content"
-        dangerouslySetInnerHTML={{
+        dangerouslySetInnerHTML={language === "en" ? {
           __html: data.site.siteMetadata.home.description,
+        } : {
+          __html: data.site.siteMetadata.home.descriptionvn,
         }}
       />
       <div className="primary-content">
-        {data.site.siteMetadata.home.interests}
+        {language === "en" ? data.site.siteMetadata.home.interests : data.site.siteMetadata.home.interestsvn}
       </div>
     </div>
   );
