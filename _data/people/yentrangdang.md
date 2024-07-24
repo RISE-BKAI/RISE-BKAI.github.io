@@ -6,7 +6,7 @@ title: Đặng Yến Trang
 thumbnail: /assets/people/yentrangdang.jpg
 position: alumni
 endYear: 2024
-metaDescription: ""
+metaDescription: "Incoming Research Engineer at Singapore Management University"
 order: 3
 ---
 

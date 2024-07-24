@@ -4,8 +4,9 @@ path: /people/hoanglongdang
 date: 2022-02-01T06:15:50.738Z
 title: Đặng Hoàng Long
 thumbnail: /assets/people/hoanglongdang.jpg
-position: member
-metaDescription: Undergraduate Student
+position: alumni
+endYear: 2024
+metaDescription: ""
 order: 3
 ---
 

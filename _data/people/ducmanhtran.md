@@ -5,7 +5,7 @@ date: 2020-01-01T06:15:50.738Z
 title: Trần Đức Mạnh
 thumbnail: /assets/people/ducmanhtran.jpg
 position: leader
-metaDescription: Undergraduate Student. Incoming Research Engineer at Singapore Management University
+metaDescription: Graduated Student. Incoming Research Engineer at Singapore Management University
 order: 2
 ---
 

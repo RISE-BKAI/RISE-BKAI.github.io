@@ -4,8 +4,9 @@ path: /people/phucthanhnguyen
 date: 2022-02-01T06:15:50.738Z
 title: Nguyễn Phúc Thành
 thumbnail: /assets/people/phucthanhnguyen.jpg
-position: member
-metaDescription: Undergraduate Student. Incoming Research Engineer at Singapore Management University
+position: alumni
+endYear: 2024
+metaDescription: Incoming Research Engineer at Singapore Management University
 order: 3
 ---
 
