@@ -63,7 +63,7 @@ const PeoplePage = ({
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {currentPeople}
       </div>
-      <h2>Alumni | Cực sinh viên</h2>
+      <h2>Alumni | Cựu sinh viên</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
