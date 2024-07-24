@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /people/dangduongnguyen
+path: /people-en/dangduongnguyen
 date: 2022-02-01T06:15:50.738Z
 title: Nguyễn Đăng Dương
 thumbnail: /assets/people/dangduongnguyen.jpg

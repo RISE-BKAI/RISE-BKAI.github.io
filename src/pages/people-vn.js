@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import PeopleLink from "../components/people-link";
 import HelmetWrapper from "../components/helmetWrapper";
 
-const PeoplePage = ({
+const PeoplePageVN = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -49,21 +49,21 @@ const PeoplePage = ({
 
   return (
     <Layout>
-      <HelmetWrapper title="People" />
-      <h1>Team Members</h1>
-      <h2>Supervisors</h2>
+      <HelmetWrapper title="Thành viên nhóm" />
+      <h1>Thành viên nhóm</h1>
+      <h2>Giảng viên hướng dẫn</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {supervisors}
       </div>
-      <h2>Leaders</h2>
+      <h2>Trưởng nhóm</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {leaders}
       </div>
-      <h2>Members</h2>
+      <h2>Thành viên</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {currentPeople}
       </div>
-      <h2>Alumni</h2>
+      <h2>Cựu sinh viên</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
@@ -71,10 +71,10 @@ const PeoplePage = ({
   );
 };
 
-export default PeoplePage;
+export default PeoplePageVN;
 
 export const pageQuery = graphql`
-  query peoplePageQuery {
+  query peoplePageQueryVN {
     site {
       siteMetadata {
         title
@@ -83,7 +83,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { order: ASC, fields: [frontmatter___order] }
-      filter: { frontmatter: { path: { regex: "/people-en/" } } }
+      filter: { frontmatter: { path: { regex: "/people-vn/" } } }
     ) {
       edges {
         node {
