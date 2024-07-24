@@ -6,7 +6,7 @@ title: Trần Đức Mạnh
 thumbnail: /assets/people/ducmanhtran.jpg
 position: leader
 metaDescription: Graduated Student. Incoming Research Engineer at Singapore Management University
-metaDescriptionvn: Đã tốt nghiệp. Sắp trở thành Kỹ sư nghiên cứu tại Đại học quản lí Singapore 
+metaDescriptionvn: Đã tốt nghiệp. Sắp trở thành Kỹ sư nghiên cứu tại Đại học Quản lý Singapore 
 order: 2
 ---
 
