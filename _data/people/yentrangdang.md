@@ -7,7 +7,7 @@ thumbnail: /assets/people/yentrangdang.jpg
 position: alumni
 endYear: 2024
 metaDescription: "Incoming Research Engineer at Singapore Management University"
-metaDescriptionvn: "Sắp trở thành Research Engineer tại Singapore Management University"
+metaDescriptionvn: "Sắp trở thành Kỹ sư nghiên cứu tại Đại học quản lí Singapore"
 order: 3
 ---
 

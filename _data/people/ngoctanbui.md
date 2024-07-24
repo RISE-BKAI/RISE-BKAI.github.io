@@ -7,7 +7,7 @@ thumbnail: /assets/people/ngoctanbui.jpg
 position: alumni
 endYear: 2023
 metaDescription: PhD Student at Singapore Management University
-metaDescriptionvn: Nghiên cứu sinh Tiến sĩ tại Singapore Management University
+metaDescriptionvn: Nghiên cứu sinh Tiến sĩ tại Đại học quản lí Singapore 
 order: 3
 ---
 
