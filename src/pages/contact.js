@@ -90,7 +90,7 @@ const ContactPage = ({ data: { site } }) => {
             )}
           </div>
           <div className="primary-content">
-            <b>{language === "en" ? "Student Recruitment for Research Team:" : "Tuyển sinh viên cho nhóm nghiên cứu:"}</b>
+            <b>{language === "en" ? "Student Recruitment for Research Team: " : "Tuyển sinh viên cho nhóm nghiên cứu: "}</b>
             {language === "en" ? (
               <>
                 The Research Group for Intelligent Software Engineering (RISE) is
@@ -100,7 +100,8 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Nhóm Nghiên cứu Kỹ thuật Phần mềm Thông minh (RISE) đang tìm kiếm các sinh viên đại học đam mê xuất sắc, hứng thú với đổi mới và muốn tạo sự khác biệt. Nếu điều này nghe giống bạn, bạn đã đến đúng chỗ!
+                Nhóm Nghiên cứu Kỹ thuật Phần mềm Thông minh (RISE) đang tìm kiếm các sinh viên với sự đam mê và 
+                hứng thú với sự mới mẻ và khác biệt. Nếu đó là bạn, thì hãy đăng kí luôn thôi!
               </>
             )}
           </div>
@@ -118,16 +119,16 @@ const ContactPage = ({ data: { site } }) => {
               ) : (
                 <>
                   <li>Được làm việc trên các chủ đề nghiên cứu tiên tiến trong Kỹ thuật Phần mềm và Trí tuệ Nhân tạo;</li>
-                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu uy tín từ HUST và các trường đại học hợp tác, ví dụ: Đại học Melbourne và Đại học Quản lý Singapore;</li>
-                  <li>Được làm việc trong môi trường chuyên nghiệp, cởi mở với các đồng nghiệp năng động và có kinh nghiệm;</li>
+                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu từ HUST và các trường đại học, như Melbourne University, Singapore Management University;</li>
+                  <li>Được làm việc trong môi trường chuyên nghiệp, cởi mở với các sinh viên nghiên cứu có kinh nghiệm;</li>
                   <li>Được xuất bản trong các tạp chí và hội nghị hàng đầu trong lĩnh vực Kỹ thuật Phần mềm và Trí tuệ Nhân tạo;</li>
-                  <li>Được hỗ trợ trong việc xin học bổng tại các nước phát triển, ví dụ: Mỹ, Singapore và Úc, cho sau đại học (Thạc sĩ hoặc Tiến sĩ).</li>
+                  <li>Được hỗ trợ trong việc xin học bổng tại các nước phát triển như Mỹ, Singapore và Úc, cho các chương trình đào tạo sau Đại học (Thạc sĩ hoặc Tiến sĩ).</li>
                 </>
               )}
             </ul>
           </div>    
           <div className="primary-content">
-            <b>{language === "en" ? "Your Role:" : "Vai trò của bạn:"}</b>
+            <b>{language === "en" ? "Your Role: " : "Vai trò của bạn: "}</b>
             {language === "en" ? (
               <>
                 The students will be instructed by supervisors and participate in
@@ -150,13 +151,12 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Các sinh viên sẽ được hướng dẫn bởi các giám sát viên và tham gia vào
-                nghiên cứu khoa học chuyên nghiệp. Các chủ đề nghiên cứu bao gồm nhưng
-                không giới hạn ở:
+                Các sinh viên sẽ được hướng dẫn bởi giảng viên hướng dẫn và tham gia vào
+                nghiên cứu khoa học chuyên nghiệp. Các chủ đề nghiên cứu bao gồm:
                 <ul>
                   <li>AI cho Kỹ thuật Phần mềm</li>
-                  <li>Mô hình Ngôn ngữ Lớn cho các tác vụ liên quan đến mã, ví dụ: Phát hiện lỗi, Sửa lỗi và Tạo mã</li>
-                  <li>An ninh Chuỗi Cung ứng Phần mềm</li>
+                  <li>Mô hình Ngôn ngữ Lớn cho các tác vụ liên quan đến mã máy, như Phát hiện lỗi, Sửa lỗi và Sinh mã máy</li>
+                  <li>An toàn trong Chuỗi Cung ứng Phần mềm</li>
                 </ul>
                 Người giữ vị trí này sẽ được yêu cầu thực hiện các nhiệm vụ sau:
                 <ul>
@@ -177,17 +177,13 @@ const ContactPage = ({ data: { site } }) => {
                 <>
                   <li>Have a passion for academic research or have a studying orientation in advanced countries for postgraduate (Master's or Ph.D.)</li>
                   <li>Interest in one of the following areas: Software Engineering, Artificial Intelligence, Machine Learning</li>
-                  <li>Good background in Deep Learning or Program Analysis/Software Testing</li>
-                  <li>Strong programming skills</li>
                   <li>English skills: reading and writing (optional)</li>
                 </>
               ) : (
                 <>
                   <li>Có đam mê nghiên cứu học thuật hoặc có định hướng học tập tại các quốc gia tiên tiến cho sau đại học (Thạc sĩ hoặc Tiến sĩ)</li>
                   <li>Quan tâm đến một trong các lĩnh vực sau: Kỹ thuật Phần mềm, Trí tuệ Nhân tạo, Học máy</li>
-                  <li>Nền tảng tốt về Học sâu hoặc Phân tích Chương trình/ Kiểm thử Phần mềm</li>
-                  <li>Kỹ năng lập trình mạnh</li>
-                  <li>Kỹ năng tiếng Anh: đọc và viết (tùy chọn)</li>
+                  <li>Kỹ năng tiếng Anh: đọc và viết (không có cũng đừng ngại)</li>
                 </>
               )}
             </ul>
@@ -195,9 +191,9 @@ const ContactPage = ({ data: { site } }) => {
           <div className="primary-content">
             <b>{language === "en" ? "Office:" : "Văn phòng:"}</b> 
             {language === "en" ? (
-              <>Hanoi University of Science and Technology, B1 Building, Room 409, Tran Dai Nghia Road, Hai Ba Trung District, Hanoi, Vietnam.</>
+              <>Hanoi University of Science and Technology, B1 Building, Room 1001, Tran Dai Nghia Road, Hai Ba Trung District, Hanoi, Vietnam.</>
             ) : (
-              <>Đại học Bách Khoa Hà Nội, Tòa nhà B1, Phòng 409, Đường Trần Đại Nghĩa, Quận Hai Bà Trưng, Hà Nội, Việt Nam.</>
+              <>Đại học Bách Khoa Hà Nội, Tòa nhà B1, Phòng 1001, Đường Trần Đại Nghĩa, Quận Hai Bà Trưng, Hà Nội, Việt Nam.</>
             )}
           </div>
         </div>
