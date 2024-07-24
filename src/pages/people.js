@@ -50,20 +50,20 @@ const PeoplePage = ({
   return (
     <Layout>
       <HelmetWrapper title="People" />
-      <h1>Team Members</h1>
-      <h2>Supervisors</h2>
+      <h1>Team Members | Thành viên nhóm</h1>
+      <h2>Supervisors | Giảng viên hướng dẫn</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {supervisors}
       </div>
-      <h2>Leaders</h2>
+      <h2>Leaders | Trưởng nhóm</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {leaders}
       </div>
-      <h2>Current Lab Members</h2>
+      <h2>Members | Thành viên</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {currentPeople}
       </div>
-      <h2>Previous Lab Members</h2>
+      <h2>Alumni | Cực sinh viên</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
