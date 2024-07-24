@@ -3,12 +3,15 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PeopleLink from "../components/people-link";
 import HelmetWrapper from "../components/helmetWrapper";
+import { useLanguageContext } from "../contexts/language-context";
 
 const PeoplePage = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
+  const { language } = useLanguageContext();
+
   // Filter and map current people (excluding alumni, supervisors, and leaders)
   const currentPeople = edges
     .filter(
@@ -50,20 +53,20 @@ const PeoplePage = ({
   return (
     <Layout>
       <HelmetWrapper title="People" />
-      <h1>Team Members</h1>
-      <h2>Supervisors</h2>
+      <h1>{language === "en" ? "Team Members" : "Thành Viên Nhóm"}</h1>
+      <h2>{language === "en" ? "Supervisors" : "Giảng viên hướng dẫn"}</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {supervisors}
       </div>
-      <h2>Leaders</h2>
+      <h2>{language === "en" ? "Leaders" : "Trưởng nhóm"}</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {leaders}
       </div>
-      <h2>Members</h2>
+      <h2>{language === "en" ? "Members" : "Thành Viên"}</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {currentPeople}
       </div>
-      <h2>Alumni</h2>
+      <h2>{language === "en" ? "Alumni" : "Cựu Thành Viên"}</h2>
       <div className="grids small" style={{ marginBottom: "32px" }}>
         {prevPeople}
       </div>
@@ -83,7 +86,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { order: ASC, fields: [frontmatter___order] }
-      filter: { frontmatter: { path: { regex: "/people-en/" } } }
+      filter: { frontmatter: { path: { regex: "/people/" } } }
     ) {
       edges {
         node {
@@ -95,6 +98,7 @@ export const pageQuery = graphql`
             title
             thumbnail
             metaDescription
+            metaDescriptionvn
             position
             endYear
           }

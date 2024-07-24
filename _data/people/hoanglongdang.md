@@ -7,6 +7,7 @@ thumbnail: /assets/people/hoanglongdang.jpg
 position: alumni
 endYear: 2024
 metaDescription: ""
+metaDescriptionvn: ""
 order: 3
 ---
 

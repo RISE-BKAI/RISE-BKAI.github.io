@@ -6,6 +6,7 @@ title: Huỳnh Quyết Thắng
 thumbnail: /assets/people/quyetthanghuynh.jpg
 position: supervisor
 metaDescription: Associate Professor - President of HUST
+metaDescriptionvn: Phó Giáo sư - Giám đốc Đại học Bách Khoa Hà Nội
 order: 0
 ---
 

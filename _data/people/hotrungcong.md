@@ -7,6 +7,7 @@ thumbnail: /assets/people/hotrungcong.jpeg
 position: alumni
 endYear: 2024
 metaDescription: "Thesis Student"
+metaDescriptionvn: "Sinh viên Đồ án tốt nghiệp"
 order: 3
 ---
 

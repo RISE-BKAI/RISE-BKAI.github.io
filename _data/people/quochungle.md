@@ -7,6 +7,7 @@ thumbnail: /assets/people/quochungle.jpeg
 position: alumni
 endYear: 2024
 metaDescription: "PhD Student at North Carolina State University"
+metaDescriptionvn: "Nghiên cứu sinh Tiến sĩ tại  North Carolina State University"
 order: 3
 ---
 

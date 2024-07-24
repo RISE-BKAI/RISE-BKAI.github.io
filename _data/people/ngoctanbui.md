@@ -1,12 +1,13 @@
 ---
 template: BlogPost
-path: /people/huuhungnguyen
+path: /people/ngoctanbui
 date: 2022-02-01T06:15:50.738Z
-title: Nguyễn Hữu Hưng
-thumbnail: /assets/people/huuhungnguyen.jpg
+title: Bùi Ngọc Tân
+thumbnail: /assets/people/ngoctanbui.jpg
 position: alumni
 endYear: 2023
 metaDescription: PhD Student at Singapore Management University
+metaDescriptionvn: Nghiên cứu sinh Tiến sĩ tại Singapore Management University
 order: 3
 ---
 
