@@ -1,34 +1,43 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-export default () => (
-  <StaticQuery
-    query={graphql`
+import { useStaticQuery, graphql } from "gatsby";
+import { useLanguageContext } from "../contexts/language-context";
+
+const HeroHeader = () => {
+  const data = useStaticQuery(
+    graphql`
       query HeadingQuery {
         site {
           siteMetadata {
             home {
               title
+              titlevn
               description
               interests
             }
           }
         }
       }
-    `}
-    render={(data) => (
-      <div className="hero-header">
-        <div className="headline">{data.site.siteMetadata.home.title}</div>
-        <div
-          className="primary-content"
-          dangerouslySetInnerHTML={{
-            __html: data.site.siteMetadata.home.description,
-          }}
-        />
-        <div className="primary-content">
-          {data.site.siteMetadata.home.interests}
-        </div>
-        {/* <Link to='/contact' className="button -primary">Get in touch &rarr;</Link> */}
+    `
+  );
+
+  const { language } = useLanguageContext();
+
+  return (
+    <div className="hero-header">
+      <div className="headline">
+        {language === "en" ? data.site.siteMetadata.home.title : data.site.siteMetadata.home.titlevn}
       </div>
-    )}
-  />
-);
+      <div
+        className="primary-content"
+        dangerouslySetInnerHTML={{
+          __html: data.site.siteMetadata.home.description,
+        }}
+      />
+      <div className="primary-content">
+        {data.site.siteMetadata.home.interests}
+      </div>
+    </div>
+  );
+};
+
+export default HeroHeader;

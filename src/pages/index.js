@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Layout from "../components/layout";
 import HeroHeader from "../components/heroHeader";
 import { useThemeContext } from "../contexts/theme-context";
+import { useLanguageContext } from "../contexts/language-context";
 import HelmetWrapper from "../components/helmetWrapper";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -16,6 +17,7 @@ const IndexPage = ({
   },
 }) => {
   const { theme } = useThemeContext();
+  const { language } = useLanguageContext();
 
   // Slider settings
   const sliderSettings = {
@@ -64,9 +66,9 @@ const IndexPage = ({
       <div className="outer-container">
         <Slider {...sliderSettings}>{LabImages}</Slider>
       </div>
-      <h2>News</h2>
+      <h2>{language === "en" ? "News" : "Tin tức"}</h2>
       <ul className="news-list">{News}</ul>
-      <h2>Collaborators</h2>
+      <h2>{language === "en" ? "Collaborators" : "Cộng tác viên"}</h2>
       <div className="grids outer-container small small-on-mobile">
         {CollaboratorImages}
       </div>
@@ -75,6 +77,7 @@ const IndexPage = ({
 };
 
 export default IndexPage;
+
 export const pageQuery = graphql`
   query indexPageQuery {
     site {
