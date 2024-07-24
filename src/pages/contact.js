@@ -83,7 +83,8 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Nếu bạn quan tâm đến việc tham gia phòng thí nghiệm, hợp tác hoặc có bất kỳ thắc mắc nào, vui lòng gửi email cho chúng tôi tại
+                Nếu bạn quan tâm đến việc tham gia, hợp tác hay có bất kì câu hỏi
+                nào dành cho nhóm nghiên cứu, vui lòng liên hệ với chúng tôi tại
                 <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
                 hoặc sử dụng biểu mẫu trên trang này &rarr;
               </>
@@ -100,8 +101,10 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Nhóm Nghiên cứu Kỹ thuật Phần mềm Thông minh (RISE) đang tìm kiếm các sinh viên với sự đam mê và 
-                hứng thú với sự mới mẻ và khác biệt. Nếu đó là bạn, thì hãy đăng kí luôn thôi!
+                Nhóm nghiên cứu Công nghệ Phần mềm
+                thông minh (RISE) đang tìm kiếm các sinh viên có sự hứng thú với
+                việc nghiên cứu trong lĩnh vực Trí tuệ nhân tạo, hoặc Công nghệ phần mềm.
+                Hãy đăng kí để đồng hành cùng chúng tôi!
               </>
             )}
           </div>
@@ -118,17 +121,17 @@ const ContactPage = ({ data: { site } }) => {
                 </>
               ) : (
                 <>
-                  <li>Được làm việc trên các chủ đề nghiên cứu tiên tiến trong Kỹ thuật Phần mềm và Trí tuệ Nhân tạo;</li>
-                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu từ HUST và các trường đại học, như Melbourne University, Singapore Management University;</li>
-                  <li>Được làm việc trong môi trường chuyên nghiệp, cởi mở với các sinh viên nghiên cứu có kinh nghiệm;</li>
-                  <li>Được xuất bản trong các tạp chí và hội nghị hàng đầu trong lĩnh vực Kỹ thuật Phần mềm và Trí tuệ Nhân tạo;</li>
-                  <li>Được hỗ trợ trong việc xin học bổng tại các nước phát triển như Mỹ, Singapore và Úc, cho các chương trình đào tạo sau Đại học (Thạc sĩ hoặc Tiến sĩ).</li>
+                  <li>Được nghiên cứu về các chủ đề đáng quan tâm trong lĩnh vực Công nghệ phần mềm và Trí tuệ nhân tạo.</li>
+                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu đầu ngành đến từ HUST, Melbourne University, Singapore Management University</li>
+                  <li>Được làm việc trong môi trường chuyên nghiệp, cởi mở, giàu kinh nghiệm</li>
+                  <li>Có cơ hội được công bố tại các hội nghị hàng đầu trong lĩnh vực Công nghệ phần mềm và Trí tuệ nhân tạo</li>
+                  <li>Được hỗ trợ trong cho việc theo đuổi các chương trình đào tạo sau đại học tại các ngôi trường danh tiếng, hàng đầu thế giới</li>
                 </>
               )}
             </ul>
-          </div>    
+          </div>
           <div className="primary-content">
-            <b>{language === "en" ? "Your Role: " : "Vai trò của bạn: "}</b>
+            <b>{language === "en" ? "Your Role: " : "Nhiệm vụ: "}</b>
             {language === "en" ? (
               <>
                 The students will be instructed by supervisors and participate in
@@ -151,20 +154,20 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Các sinh viên sẽ được hướng dẫn bởi giảng viên hướng dẫn và tham gia vào
-                nghiên cứu khoa học chuyên nghiệp. Các chủ đề nghiên cứu bao gồm:
+                Nhận hướng dẫn bởi các mentor có kinh nghiệm, thực hiện các nghiên cứu khoa học
+                thuộc các chủ đề sau:
                 <ul>
-                  <li>AI cho Kỹ thuật Phần mềm</li>
-                  <li>Mô hình Ngôn ngữ Lớn cho các tác vụ liên quan đến mã máy, như Phát hiện lỗi, Sửa lỗi và Sinh mã máy</li>
-                  <li>An toàn trong Chuỗi Cung ứng Phần mềm</li>
+                  <li>AI cho Công nghệ phần mềm</li>
+                  <li>Mô hình ngôn ngữ lớn cho các tác vụ mã máy: phát hiện, tự sửa lỗi; sinh mã</li>
+                  <li>An toàn thông tin cho chuỗi cung ứng phần mềm</li>
                 </ul>
                 Người giữ vị trí này sẽ được yêu cầu thực hiện các nhiệm vụ sau:
                 <ul>
-                  <li>Hoàn thành các nhiệm vụ do người hướng dẫn giao</li>
-                  <li>Thực hiện tổng quan tài liệu và các nghiên cứu thực nghiệm về các chủ đề được giao</li>
+                  <li>Hoàn thành nhiệm vụ được mentor giao</li>
+                  <li>Tìm hiểu các công bố khoa học chuyên ngành</li>
                   <li>Triển khai các giải pháp</li>
-                  <li>Trình bày và báo cáo ít nhất một lần một tuần</li>
-                  <li>Giao tiếp và phối hợp với các đối tác</li>
+                  <li>Báo cáo hàng tuần</li>
+                  <li>Giao tiếp, phối hợp với các bên</li>
                   <li>Lên kế hoạch và tham gia các cuộc họp dự án</li>
                 </ul>
               </>
@@ -181,15 +184,15 @@ const ContactPage = ({ data: { site } }) => {
                 </>
               ) : (
                 <>
-                  <li>Có đam mê nghiên cứu học thuật hoặc có định hướng học tập tại các quốc gia tiên tiến cho sau đại học (Thạc sĩ hoặc Tiến sĩ)</li>
-                  <li>Quan tâm đến một trong các lĩnh vực sau: Kỹ thuật Phần mềm, Trí tuệ Nhân tạo, Học máy</li>
-                  <li>Kỹ năng tiếng Anh: đọc và viết (không có cũng đừng ngại)</li>
+                  <li>Có đam mê nghiên cứu hoặc có định hướng học tập sau đại học</li>
+                  <li>Quan tâm đến 1 trong các lĩnh vực sau: Công nghệ phần mềm, Trí tuệ nhân tạo</li>
+                  <li>Kỹ năng tiếng Anh: đọc và viết (thành thạo là một điểm cộng)</li>
                 </>
               )}
             </ul>
-          </div> 
+          </div>
           <div className="primary-content">
-            <b>{language === "en" ? "Office:" : "Văn phòng:"}</b> 
+            <b>{language === "en" ? "Office:" : "Văn phòng:"}</b>
             {language === "en" ? (
               <>Hanoi University of Science and Technology, B1 Building, Room 1001, Tran Dai Nghia Road, Hai Ba Trung District, Hanoi, Vietnam.</>
             ) : (
@@ -239,9 +242,9 @@ const ContactPage = ({ data: { site } }) => {
                       <RequiredWarning fieldName={language === "en" ? "Message" : "Tin nhắn"} />
                     )}
                   </label>
-                  <textarea 
-                    name="w3lMessage" 
-                    id="w3lMessage" 
+                  <textarea
+                    name="w3lMessage"
+                    id="w3lMessage"
                     placeholder={language === "en" ? "Tell us about yourself and Why you'd like to enroll into our lab ..." : "Hãy giới thiệu bản thân của bạn, cũng như lý do bạn muốn tham gia vào lab này ..."}
                   ></textarea>
                 </div>

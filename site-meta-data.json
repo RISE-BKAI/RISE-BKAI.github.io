@@ -13,63 +13,63 @@
     "news": [
       {
         "date": "July 2024",
-        "datevn": "Tháng 7 năm 2024",
+        "datevn": "Tháng 7, 2024",
         "content": "We are actively recruiting new members !!! Please do not hesitate to reach out to us.",
-        "contentvn": "Chúng tôi đang tuyển thành viên mới !!! Hãy liên hệ với chúng tôi nếu bạn có hứng thú.",
+        "contentvn": "chúng tôi đang tuyển thành viên mới!!! Hãy liên hệ để đồng hành cũng chúng tôi!",
         "link": "https://rise-bkai.github.io/contact"
       },
       {
         "date": "April 2024",
-        "datevn": "Tháng 4 năm 2024",
+        "datevn": "Tháng 4, 2024",
         "content": "Congrats Phuc Thanh on receiving research engineer offer from Singapore Management University.",
         "contentvn": "Chúc mừng Phúc Thành đã nhận được lời mời làm kỹ sư nghiên cứu từ Đại học quản lí Singapore .",
         "link": "https://rise-bkai.github.io/people/phucthanhnguyen"
       },
       {
         "date": "March 2024",
-        "datevn": "Tháng 3 năm 2024",
+        "datevn": "Tháng 3, 2024",
         "content": "Our paper, titled *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, has been accepted at the International Conference on Evaluation and Assessment in Software Engineering (EASE, Rank A). Congrats Trang on her first paper as first author.",
-        "contentvn": "Bài báo của chúng tôi, có tựa đề *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, đã được chấp nhận tại Hội nghị Quốc tế Evaluation and Assessment in Software Engineering (EASE, Hạng A). Chúc mừng Trang với bài báo đầu tiên của chị ấy.",
+        "contentvn": "Bài báo của chúng tôi, có tựa đề *LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss*, đã được chấp nhận tại Hội nghị Quốc tế Evaluation and Assessment in Software Engineering (EASE, Hạng A).",
         "link": "https://thanhlecongg.github.io/pdf/EASE_LEGION.pdf"
       },
       {
         "date": "February 2024",
-        "datevn": "Tháng 2 năm 2024",
+        "datevn": "Tháng 2, 2024",
         "content": "Congrats Quoc Hung on receiving PhD offer from North Carolina State University (#3 US in Software Engineering - CSRanking)",
         "contentvn": "Chúc mừng Quốc Hưng đã nhận được lời mời học Tiến sĩ từ Trường Đại học Bang Bắc Carolina (#3 US trong Kỹ thuật Phần mềm - CSRanking)",
         "link": ""
       },
       {
         "date": "February 2024",
-        "datevn": "Tháng 2 năm 2024",
+        "datevn": "Tháng 2, 2024",
         "content": "Congrats Quoc Hung and Trang on achieving the highest score in their thesis defense committee",
-        "contentvn": "Chúc mừng Quốc Hưng và Trang đã đạt điểm cao nhất trong Hội đồng bảo vệ đồ án tốt nghiệp của họ",
+        "contentvn": "Chúc mừng Quốc Hưng và Trang đã đạt điểm cao nhất trong Hội đồng bảo vệ đồ án tốt nghiệp của trường Công nghệ thông tin và Truyền thông.",
         "link": ""
       },
       {
         "date": "February 2024",
-        "datevn": "Tháng 2 năm 2024",
+        "datevn": "Tháng 2, 2024",
         "content": "Congrats to Cong Thanh on receiving an Amazon Internship Offer.",
         "contentvn": "Chúc mừng Công Thành đã nhận được lời mời thực tập từ Amazon.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
       },
       {
         "date": "October 2023",
-        "datevn": "Tháng 10 năm 2023",
+        "datevn": "Tháng 10, 2023",
         "content": "Congrats to Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
-        "contentvn": "Chúc mừng Công Thành đã được chọn là một trong hai nghiên cứu sinh Tiến sĩ của Google trong Công nghệ Lập trình và Kỹ thuật Phần mềm",
+        "contentvn": "Chúc mừng Công Thành đã được chọn là một trong hai nghiên cứu sinh Tiến sĩ của Google trong Công nghệ phần mềm và Kỹ thuật lập trình.",
         "link": "https://rise-bkai.github.io/people/lecongthanh"
       },
       {
         "date": "August 2023",
-        "datevn": "Tháng 8 năm 2023",
+        "datevn": "Tháng 8, 2023",
         "content": "Congrats to Huu Hung and Tan on receiving PhD offer from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
         "contentvn": "Chúc mừng Hữu Hưng và Tân đã nhận được lời mời học Tiến sĩ từ Đại học quản lí Singapore  (#10 trên toàn thế giới trong Kỹ thuật Phần mềm - CSRanking)",
         "link": "https://rise-bkai.github.io/people/huuhungnguyen"
       },
       {
         "date": "February 2023",
-        "datevn": "Tháng 2 năm 2023",
+        "datevn": "Tháng 2, 2023",
         "content": "Congrats to Huu Hung and Tan on receiving research internship from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
         "contentvn": "Chúc mừng Hữu Hưng và Tân đã được nhận làm thực tập sinh nghiên cứu của Đại học quản lí Singapore  (#10 trên toàn thế giới trong Kỹ thuật Phần mềm - CSRanking)",
         "link": "https://rise-bkai.github.io/people/huuhungnguyen"
