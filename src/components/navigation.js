@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import ThemeChanger from "../components/themeChanger";
 import { useLanguageContext } from "../contexts/language-context";
 import { useThemeContext } from "../contexts/theme-context";
+import ToggleSwitch from "../components/toggleSwitch"; // Import the ToggleSwitch component
 
 const Navigation = (props) => {
   const { language, setLanguage } = useLanguageContext();
@@ -18,10 +19,14 @@ const Navigation = (props) => {
       <Link to="/publications">{language === "en" ? "Publications" : "Công bố"}</Link>|
       <Link to="/resources">{language === "en" ? "Resources" : "Tài liệu"}</Link>|
       <Link to="/contact">{language === "en" ? "Contact" : "Liên hệ"}</Link>
-      <button onClick={toggleLanguage} className="language-toggle">
-        {language === "en" ? "VN" : "EN"}
-      </button>
-      <ThemeChanger />
+      <div style={{ display: "inline-block", marginLeft: "16px" }}>
+        <ThemeChanger />
+      </div>
+      <ToggleSwitch
+        isChecked={language === "en"}
+        onToggle={toggleLanguage}
+        labels={["VN", "EN"]}
+      />
     </nav>
   );
 };

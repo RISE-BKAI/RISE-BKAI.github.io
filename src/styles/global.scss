@@ -102,6 +102,18 @@ a {
   }
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+
+  // .language-toggle {
+  //   margin-left: 1rem;
+  //   padding: 0.5rem;
+  //   background: white;
+  //   border: 1px solid #000;
+  //   cursor: pointer;
+
+  //   &:hover {
+  //     background-color: #f0f0f0;
+  //   }
+  // }
 }
 .site-header {
   display: flex;
