@@ -32,11 +32,11 @@ const ResourcePage = ({
       <div className="primary-content">
         {language === "en" ? (
           <>
-            Our lab built multiple tools which are available to use. You can check some of them below
+            Our lab has built many tools from research, aiming at real-world application and technical transfer. You can check some tools below.
           </>
         ) : (
           <>
-            Phòng thí nghiệm của chúng tôi đã xây dựng nhiều công cụ có sẵn để sử dụng. Bạn có thể kiểm tra một số trong số chúng dưới đây
+            Chúng tôi đã xây dựng nhiều công cụ từ các nghiên cứu, hướng tới ứng dụng và chuyển giao. Bạn có thể xem một số công cụ dưới đây.
           </>
         )}
         <div className="grids">{Resources}</div>
