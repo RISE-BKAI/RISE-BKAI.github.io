@@ -6,8 +6,8 @@ title: Hồ Trung Công
 thumbnail: /assets/people/hotrungcong.jpeg
 position: alumni
 endYear: 2024
-metaDescription: "Thesis Student"
-metaDescriptionvn: "Sinh viên Đồ án tốt nghiệp"
+metaDescription: "Graduated Student. EVN-ICT"
+metaDescriptionvn: "Đã tốt nghiệp. Kỹ sư phát triển phần mềm, Tập Đoàn Điện Lực Việt Nam"
 order: 3
 ---
 

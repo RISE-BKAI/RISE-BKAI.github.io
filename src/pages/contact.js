@@ -83,7 +83,7 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Nếu bạn quan tâm đến việc tham gia, hợp tác hay có bất kì câu hỏi
+                Nếu bạn sinh viên quan tâm đến việc tham gia, hợp tác hay có bất kì câu hỏi
                 nào dành cho nhóm nghiên cứu, vui lòng liên hệ với chúng tôi tại
                 <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
                 hoặc sử dụng biểu mẫu trên trang này &rarr;
@@ -114,7 +114,7 @@ const ContactPage = ({ data: { site } }) => {
               {language === "en" ? (
                 <>
                   <li>To work on cutting-edge research topics in Software Engineering and Artificial Intelligence;</li>
-                  <li>To be instructed and collaborated by/with prestigious professors and researchers from HUST and collaborated universities, e.g., University of Melbourne, and Singapore Management University;</li>
+                  <li>To be instructed and collaborated by/with prestigious professors and researchers from HUST and collaborated universities, e.g., University of Melbourne, and Singapore Management University, University of Adelaide;</li>
                   <li>To work in a professional, open-minded environment with energetic and experienced colleagues;</li>
                   <li>To have publications in top-tier journals and conferences in Software Engineering and Artificial Intelligence;</li>
                   <li>To be supported in applying for the scholarship in developed countries, e.g., US, Singapore and Australia, for postgraduate (Master's or Ph.D.).</li>
@@ -122,7 +122,7 @@ const ContactPage = ({ data: { site } }) => {
               ) : (
                 <>
                   <li>Được nghiên cứu về các chủ đề đáng quan tâm trong lĩnh vực Công nghệ phần mềm và Trí tuệ nhân tạo.</li>
-                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu đầu ngành đến từ HUST, Melbourne University, Singapore Management University</li>
+                  <li>Được hướng dẫn và hợp tác với các giáo sư và nhà nghiên cứu đầu ngành đến từ HUST, Melbourne University, Singapore Management University, University of Adelaide</li>
                   <li>Được làm việc trong môi trường chuyên nghiệp, cởi mở, giàu kinh nghiệm</li>
                   <li>Có cơ hội được công bố tại các hội nghị hàng đầu trong lĩnh vực Công nghệ phần mềm và Trí tuệ nhân tạo</li>
                   <li>Được hỗ trợ trong cho việc theo đuổi các chương trình đào tạo sau đại học tại các ngôi trường danh tiếng, hàng đầu thế giới</li>
@@ -139,8 +139,8 @@ const ContactPage = ({ data: { site } }) => {
                 are not limited to:
                 <ul>
                   <li>AI for Software Engineering</li>
-                  <li>Large Language Models for Code-related tasks, e.g., Bug Detection, Bug Fixing and Code Generation</li>
-                  <li>Software Supply Chain Security</li>
+                  <li>Large Language Models for Code Generation and Analysis</li>
+                  <li>AI for Software Security</li>
                 </ul>
                 The position holder will be required to perform the following tasks:
                 <ul>
@@ -157,11 +157,11 @@ const ContactPage = ({ data: { site } }) => {
                 Nhận hướng dẫn bởi các mentor có kinh nghiệm, thực hiện các nghiên cứu khoa học
                 thuộc các chủ đề sau:
                 <ul>
-                  <li>AI cho Công nghệ phần mềm</li>
-                  <li>Mô hình ngôn ngữ lớn cho các tác vụ mã máy: phát hiện, tự sửa lỗi; sinh mã</li>
-                  <li>An toàn thông tin cho chuỗi cung ứng phần mềm</li>
+                  <li>Trí tuệ nhân tạo trong Công nghệ phần mềm</li>
+                  <li>Mô hình ngôn ngữ lớn cho sinh và phân tích mã nguồn</li>
+                  <li>Trí tuệ nhân tạo trong bảo mật phần mềm</li>
                 </ul>
-                Người giữ vị trí này sẽ được yêu cầu thực hiện các nhiệm vụ sau:
+                Các bạn sinh khi tham gia vào nhóm sẽ phải thực hiện các nhiệm vụ sau:
                 <ul>
                   <li>Hoàn thành nhiệm vụ được mentor giao</li>
                   <li>Tìm hiểu các công bố khoa học chuyên ngành</li>

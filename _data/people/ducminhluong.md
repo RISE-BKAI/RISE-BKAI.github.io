@@ -7,7 +7,7 @@ thumbnail: /assets/people/ducminhluong.jpg
 position: alumni
 endYear: 2022
 metaDescription: "BrSE at Sun Asterisk, Japan"
-metaDescriptionvn: "BrSE tại Sun Asterisk, Nhật Bản"
+metaDescriptionvn: "Kỹ sư cầu nối tại Sun Asterisk, Nhật Bản"
 order: 3
 ---
 

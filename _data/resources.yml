@@ -1,11 +1,11 @@
 - name: "DefectGuard: An Integrated, Efficient and Effective Tool for JIT Defect Prediction"
   url: https://github.com/manhtdd/DefectGuard-the-Package
   description: "A cutting-edge defect prediction tool with up-to-date Just-in-Time techniques and a robust API, empowering software development teams to proactively identify and mitigate defects in real-time."
-  descriptionvn: "DefectGuard là một công cụ dự đoán lỗi tiên tiến với các kỹ thuật Just-in-Time cập nhật và API mạnh mẽ, giúp các nhóm phát triển phần mềm chủ động xác định và giảm thiểu lỗi trong thời gian thực."
+  descriptionvn: "DefectGuard là một công cụ dự đoán lỗi tiên tiến với các kỹ thuật Just-in-Time mới nhất. Công cụ cũng cấp API để giúp các nhóm phát triển phần mềm chủ động xác định và giảm thiểu lỗi trong thời gian thực."
 - name: "LEGION: A LLM-based recommendation system for GitHub topics"
   url: https://github.com/RISE-BKAI/LEGION
   description: "A LLM-powerred tool for recommending GitHub topics"
-  descriptionvn: "LEGION là một công cụ mạnh mẽ sử dụng mô hình ngôn ngữ lớn (LLM) để đề xuất các chủ đề trên GitHub"
+  descriptionvn: "LEGION là một công cụ sử dụng mô hình ngôn ngữ lớn (LLM) để đề xuất các chủ đề trên GitHub"
 - name: "DefectSource: Advanced Defect Prediction for GitHub-Like Platforms"
   url: https://github.com/RISE-BKAI/DefectSource
   description: "DefectSource provides comprehensive defect prediction and management for GitHub-like applications. With cutting-edge Just-in-Time defect prediction techniques, DefectSource enables developers to proactively detect and resolve defects, ensuring smoother and more reliable software development processes."

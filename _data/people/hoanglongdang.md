@@ -8,7 +8,7 @@ position: alumni
 endYear: 2024
 metaDescription: ""
 metaDescriptionvn: ""
-order: 3
+order: 2
 ---
 
 Please checkout [my personal page](https://users.soict.hust.edu.vn/thanghq/?fbclid=IwAR2VaQ-JSrqiP-WFBaP8wqQMsfEwQ9ep10KAqNoQY63w2lZWPJuHPdgT8kQ).

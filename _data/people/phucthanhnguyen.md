@@ -6,8 +6,8 @@ title: Nguyễn Phúc Thành
 thumbnail: /assets/people/phucthanhnguyen.jpg
 position: alumni
 endYear: 2024
-metaDescription: Incoming Research Engineer at Singapore Management University
-metaDescriptionvn: Sắp trở thành Kỹ sư nghiên cứu tại Đại học Quản lý Singapore 
+metaDescription: Research Engineer at Singapore Management University
+metaDescriptionvn: Kỹ sư nghiên cứu tại Đại học Quản lý Singapore 
 order: 3
 ---
 
