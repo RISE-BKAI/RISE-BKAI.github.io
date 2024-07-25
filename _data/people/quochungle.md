@@ -7,7 +7,7 @@ thumbnail: /assets/people/quochungle.jpeg
 position: alumni
 endYear: 2024
 metaDescription: "PhD Student at North Carolina State University"
-metaDescriptionvn: "Nghiên cứu sinh Tiến sĩ tại Trường Đại học Bang Bắc Carolina"
+metaDescriptionvn: "Nghiên cứu sinh Tiến sĩ tại Đại học Bang Bắc Carolina"
 order: 3
 ---
 
