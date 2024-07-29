@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/dangduongnguyen
 date: 2022-02-01T06:15:50.738Z
 title: Nguyễn Đăng Dương
-thumbnail: /assets/people/dangduongnguyen.jpg
+thumbnail: /assets/people/dangduongnguyen.jpeg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
