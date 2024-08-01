@@ -192,7 +192,7 @@ const ContactPage = ({ data: { site } }) => {
             </ul>
           </div>
           <div className="primary-content">
-            <b>{language === "en" ? "Office:" : "Văn phòng:"}</b>
+            <b>{language === "en" ? "Office: " : "Văn phòng: "}</b>
             {language === "en" ? (
               <>Hanoi University of Science and Technology, B1 Building, Room 1001, Tran Dai Nghia Road, Hai Ba Trung District, Hanoi, Vietnam.</>
             ) : (
