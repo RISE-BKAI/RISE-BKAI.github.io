@@ -1,9 +1,21 @@
-- title: "LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss "
+- title: "LEGION: Harnessing Pre-trained Language Models for GitHub Topic Recommendations with Distribution-Balance Loss"
   authors: Yen-Trang Dang, Thanh Le-Cong, Phuc-Thanh Nguyen, Anh M. T. Bui, Phuong T. Nguyen, Bach Le, Quyet-Thang Huynh
   journal: International Conference on Evaluation and Assessment in Software Engineering (EASE, Rank A)
   url: https://arxiv.org/pdf/2403.05873
   year: 2024
 
+- title: "Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues?"
+  authors: Yue Liu, Thanh Le-Cong, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Bach Le, David Lo
+  journal: ACM Transactions on Software Engineering and Methodology
+  url: https://arxiv.org/pdf/2307.12596
+  year: 2024
+
+- title: "Chronos: Time-Aware Zero-Shot Identification of Libraries from Vulnerability Reports?"
+  authors: Yunbo Lyu+, Thanh Le-Cong+, Hong Jin Kang, Ratnadira Widyasari, Zhao Zhipeng, Bach Le, Ming Li, and David Lo
+  journal: IEEE/ACM 45th International Conference on Software Engineering (ICSE) 2023, Technical Track
+  url: https://arxiv.org/pdf/2301.03944
+  year: 2023
+  
 - title: "Invalidator: Automated Patch Correctness Assessment via Semantic and Syntactic Reasoning"
   authors: Thanh Le-Cong, Duc-Minh Luong, Bach Le, David Lo, Nhat Hoa Tran, Quang Huy Bui and Quyet Thang Huynh
   journal: IEEE Transactions on Software Engineering (TSE, ISI Q1, Impact Factor - 9.32)
