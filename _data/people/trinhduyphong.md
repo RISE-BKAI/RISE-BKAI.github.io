@@ -3,7 +3,7 @@ template: BlogPost
 path: /people/trinhduyphong
 date: 2022-02-01T06:15:50.738Z
 title: Trịnh Duy Phong
-thumbnail: /assets/people/no_avatar.avif
+thumbnail: /assets/people/phongtrinhduy.jpg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
