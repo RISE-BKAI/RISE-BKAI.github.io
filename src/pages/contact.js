@@ -95,7 +95,7 @@ const ContactPage = ({ data: { site } }) => {
             <b>{language === "en" ? "Student Recruitment for Research Team: " : "Tuyển sinh viên cho nhóm nghiên cứu: "}</b>
             {language === "en" ? (
               <>
-                The Artificial Intelligence for Code (AI4Code) Laboratory is
+                The Research Group of Artificial Intelligence for Code (AI4Code) is
                 looking for undergraduate students driven by excellence, excited
                 about innovation, and looking to make a difference. If this sounds
                 like you, you have come to the right place!
