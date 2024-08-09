@@ -7,7 +7,7 @@ thumbnail: /assets/people/duongchinhtran.JPG
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
-order: 3
+order: 5
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/tdc296/).

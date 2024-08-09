@@ -8,7 +8,7 @@ position: alumni
 endYear: 2024
 metaDescription: Research Engineer at Singapore Management University
 metaDescriptionvn: Kỹ sư nghiên cứu tại Đại học Quản lý Singapore 
-order: 3
+order: 16
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/phucthanhnguyen1707/).

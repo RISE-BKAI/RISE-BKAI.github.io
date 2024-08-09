@@ -8,7 +8,7 @@ position: alumni
 endYear: 2024
 metaDescription: "PhD Student at North Carolina State University"
 metaDescriptionvn: "Nghiên cứu sinh Tiến sĩ tại Đại học Bang Bắc Carolina"
-order: 3
+order: 14
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/hunglequoc2001/).

@@ -7,7 +7,7 @@ thumbnail: /assets/people/buiquangphuong.jpg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
-order: 3
+order: 8
 ---
 
 Please checkout [my personal page]().

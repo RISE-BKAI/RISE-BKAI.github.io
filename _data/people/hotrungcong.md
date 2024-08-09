@@ -8,7 +8,7 @@ position: alumni
 endYear: 2024
 metaDescription: "Graduated Student. EVN-ICT"
 metaDescriptionvn: "Đã tốt nghiệp. Kỹ sư phát triển phần mềm, Tập Đoàn Điện Lực Việt Nam"
-order: 3
+order: 18
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/conght10/).

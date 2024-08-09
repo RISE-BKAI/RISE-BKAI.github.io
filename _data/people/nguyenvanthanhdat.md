@@ -7,5 +7,5 @@ thumbnail: /assets/people/nguyenvanthanhdat.jpg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
-order: 3
+order: 10
 ---

@@ -8,7 +8,7 @@ position: alumni
 endYear: 2022
 metaDescription: "BrSE at Sun Asterisk, Japan"
 metaDescriptionvn: "Kỹ sư cầu nối tại Sun Asterisk, Nhật Bản"
-order: 3
+order: 11
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/ducminhluong).

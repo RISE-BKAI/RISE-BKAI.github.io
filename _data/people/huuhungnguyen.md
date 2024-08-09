@@ -8,7 +8,7 @@ position: alumni
 endYear: 2023
 metaDescription: PhD Student at Singapore Management University
 metaDescriptionvn: Nghiên cứu sinh Tiến sĩ tại Đại học Quản lý Singapore 
-order: 3
+order: 12
 ---
 
 Please checkout [my personal page]().

@@ -7,7 +7,7 @@ thumbnail: /assets/people/phongtrinhduy.jpg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
-order: 3
+order: 4
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/d%C6%B0%C6%A1ng-nguy%E1%BB%85n-%C4%91%C4%83ng-7ba5222a7/).

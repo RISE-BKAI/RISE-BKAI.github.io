@@ -7,7 +7,7 @@ thumbnail: /assets/people/ducmanhtran.jpg
 position: leader
 metaDescription: Graduated Student. Research Engineer at Singapore Management University
 metaDescriptionvn: Đã tốt nghiệp. Kỹ sư nghiên cứu tại Đại học Quản lý Singapore 
-order: 2
+order: 3
 ---
 
 Please checkout [my personal page](https://www.linkedin.com/in/manh-tran-0a5a52308/).

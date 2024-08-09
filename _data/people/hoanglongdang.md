@@ -8,7 +8,7 @@ position: alumni
 endYear: 2024
 metaDescription: ""
 metaDescriptionvn: ""
-order: 2
+order: 17
 ---
 
 Please checkout [my personal page]().

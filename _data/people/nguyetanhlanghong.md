@@ -7,7 +7,7 @@ thumbnail: /assets/people/nguyetanhlanghong.jpg
 position: member
 metaDescription: Undergraduate Student
 metaDescriptionvn: Sinh viên
-order: 3
+order: 7
 ---
 
 Please checkout [my personal page]().
