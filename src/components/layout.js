@@ -26,7 +26,7 @@ export default ({ children }) => {
       {children}
       <footer className="site-footer">
         <p>
-          &copy; {new Date().getFullYear()} RISE-BKAI Lab &bull; Crafted with{" "}
+          &copy; {new Date().getFullYear()} AI4Code@HUST Lab &bull; Crafted with{" "}
           <span role="img" aria-label="love">
             ❤️
           </span>
