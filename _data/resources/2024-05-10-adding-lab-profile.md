@@ -8,12 +8,12 @@ thumbnail: ""
 metaDescription: How to add and customize your profile on the lab webpage
 ---
 
-We host our lab website on GitHub at [github.com/rise-bkai/rise-bkai.github.io](https://github.com/rise-bkai/rise-bkai.github.io). The website is built using the [GatsbyJS](https://www.gatsbyjs.com/) framework.
+We host our lab website on GitHub at [github.com/AI4Code-HUST/AI4Code-HUST.github.io](https://github.com/AI4Code-HUST/AI4Code-HUST.github.io). The website is built using the [GatsbyJS](https://www.gatsbyjs.com/) framework.
 
 ### How to Add Your Profile
 
 1. **Fork and Clone the Repository:**
-   - Fork the [repository](https://github.com/rise-bkai/rise-bkai.github.io).
+   - Fork the [repository](https://github.com/AI4Code-HUST/AI4Code-HUST.github.io).
    - Clone it to your local environment.
 
 2. **Add Your Profile:**

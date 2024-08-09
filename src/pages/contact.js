@@ -78,14 +78,14 @@ const ContactPage = ({ data: { site } }) => {
               <>
                 If you're interested in joining the lab, collaborating, or have
                 any inquiries, please don't hesitate to send us an email at
-                <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
+                <a href="mailto:ai4code.hust@gmail.com"> ai4code.hust@gmail.com </a>
                 or use the form on this page &rarr;
               </>
             ) : (
               <>
                 Nếu bạn sinh viên quan tâm đến việc tham gia, hợp tác hay có bất kì câu hỏi
                 nào dành cho nhóm nghiên cứu, vui lòng liên hệ với chúng tôi tại
-                <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
+                <a href="mailto:ai4code.hust@gmail.com"> ai4code.hust@gmail.com </a>
                 hoặc sử dụng biểu mẫu trên trang này &rarr;
               </>
             )}
