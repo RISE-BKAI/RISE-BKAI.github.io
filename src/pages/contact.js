@@ -102,7 +102,7 @@ const ContactPage = ({ data: { site } }) => {
               </>
             ) : (
               <>
-                Nhóm nghiên cứu về Trí tuệ nhân tạo cho Mã nguồn (AI4Code) đang tìm kiếm các sinh viên có sự hứng thú với
+                Nhóm nghiên cứu về Trí tuệ nhân tạo cho phân tích và sinh mã nguồn (AI4Code) đang tìm kiếm các sinh viên có sự hứng thú với
                 việc nghiên cứu trong lĩnh vực Trí tuệ nhân tạo, hoặc Công nghệ phần mềm.
                 Hãy đăng kí để đồng hành cùng chúng tôi!
               </>
