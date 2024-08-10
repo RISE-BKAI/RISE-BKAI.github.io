@@ -18,7 +18,7 @@ First, request permission from the team leader to access the server and create y
     - **SSD:** `/home/aiotlab3/` - for storing code, conda environments, and Docker-related data. **ALWAYS CHECK ITS CAPACITY BEFORE USING. DO NOT FLOOD IT. THE SERVER WILL CRASH IF YOU DO.**
     - **HDD:** `/media/aiotlab3/27934be5-a11a-44ba-8b28-750d135bc3b3/` - for storing data, models, and other large files.
 - **Checking Drive Capacity:** Use `df -h` to check drive capacity.
-- **Personal Workspace:** Store your workspace under `/home/aiotlab3/<Lab|Organization|Club|...>/<Username>`. For example: `/home/aiotlab3/RISE/manhtd`.
+- **Personal Workspace:** Store your workspace under `/home/aiotlab3/<Lab|Organization|Club|...>/<Username>`. For example: `/home/aiotlab3/AI4Code/manhtd`.
 
 ## Python Environment
 

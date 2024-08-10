@@ -73,19 +73,20 @@ const ContactPage = ({ data: { site } }) => {
           <h1 className="post-title">
             {language === "en" ? "Contact us" : "Liên hệ"}
           </h1>
+
           <div className="primary-content">
             {language === "en" ? (
               <>
                 If you're interested in joining the lab, collaborating, or have
                 any inquiries, please don't hesitate to send us an email at
-                <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
+                <a href="mailto:ai4code.hust@gmail.com"> ai4code.hust@gmail.com </a>
                 or use the form on this page &rarr;
               </>
             ) : (
               <>
                 Nếu bạn sinh viên quan tâm đến việc tham gia, hợp tác hay có bất kì câu hỏi
                 nào dành cho nhóm nghiên cứu, vui lòng liên hệ với chúng tôi tại
-                <a href="mailto:rise.bkai@gmail.com"> rise.bkai@gmail.com </a>
+                <a href="mailto:ai4code.hust@gmail.com"> ai4code.hust@gmail.com </a>
                 hoặc sử dụng biểu mẫu trên trang này &rarr;
               </>
             )}
@@ -94,15 +95,14 @@ const ContactPage = ({ data: { site } }) => {
             <b>{language === "en" ? "Student Recruitment for Research Team: " : "Tuyển sinh viên cho nhóm nghiên cứu: "}</b>
             {language === "en" ? (
               <>
-                The Research Group for Intelligent Software Engineering (RISE) is
+                The Research Group of Artificial Intelligence for Code (AI4Code) is
                 looking for undergraduate students driven by excellence, excited
                 about innovation, and looking to make a difference. If this sounds
                 like you, you have come to the right place!
               </>
             ) : (
               <>
-                Nhóm nghiên cứu Công nghệ Phần mềm
-                thông minh (RISE) đang tìm kiếm các sinh viên có sự hứng thú với
+                Nhóm nghiên cứu về Trí tuệ nhân tạo cho phân tích và sinh mã nguồn (AI4Code) đang tìm kiếm các sinh viên có sự hứng thú với
                 việc nghiên cứu trong lĩnh vực Trí tuệ nhân tạo, hoặc Công nghệ phần mềm.
                 Hãy đăng kí để đồng hành cùng chúng tôi!
               </>
