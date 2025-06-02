@@ -19,10 +19,17 @@
         "link": "https://ai4code-hust.github.io/contact"
       },
       {
+        "date": "May 2025",
+        "datevn": "Tháng 5, 2025",
+        "content": "Our paper, titled *Toward Realistic Evaluations of Just-In-Time Vulnerability Prediction*, has been accepted at the International Conference on Software Maintenance and Evolution (ICSME, Rank A). Congrats Duong on his first paper as first author.",
+        "contentvn": "Bài báo của chúng tôi, có tựa đề *Toward Realistic Evaluations of Just-In-Time Vulnerability Prediction*, đã được chấp nhận tại Hội nghị Quốc tế Software Maintenance và Evolution (EASE, Hạng A).",
+        "link": ""
+      },
+      {
         "date": "March 2025",
         "datevn": "Tháng 3, 2025",
-        "content": "Congrats Nguyet Anh on receiving internship offer from National University of Singapore (#8 worldwide - QS Ranking)",
-        "contentvn": "Chúc mừng Nguyệt Anh đã nhận được lời mời thực tập cùng học bổng từ Đại học Quốc Gia Singapore (#8 thế giới - QS Ranking)",
+        "content": "Congrats Nguyet Anh and Quang Phuong on receiving internship offer from National University of Singapore (#8 worldwide - QS Ranking)",
+        "contentvn": "Chúc mừng Nguyệt Anh và Quang Phương đã nhận được lời mời thực tập cùng học bổng từ Đại học Quốc Gia Singapore (#8 thế giới - QS Ranking)",
         "link": ""
       },
       {
@@ -66,27 +73,6 @@
         "content": "Congrats Quoc Hung and Trang on achieving the highest score in their thesis defense committee",
         "contentvn": "Chúc mừng Quốc Hưng và Trang đã đạt điểm cao nhất trong Hội đồng bảo vệ đồ án tốt nghiệp của trường Công nghệ thông tin và Truyền thông.",
         "link": ""
-      },
-      {
-        "date": "February 2024",
-        "datevn": "Tháng 2, 2024",
-        "content": "Congrats to Cong Thanh on receiving an Amazon Internship Offer.",
-        "contentvn": "Chúc mừng Công Thành đã nhận được lời mời thực tập từ Amazon.",
-        "link": "https://ai4code-hust.github.io/people/lecongthanh"
-      },
-      {
-        "date": "October 2023",
-        "datevn": "Tháng 10, 2023",
-        "content": "Congrats to Cong Thanh on being selected as one of the two Google Ph.D. Fellows in Programming Technology and Software Engineering, announced by Google.",
-        "contentvn": "Chúc mừng Công Thành đã được chọn là một trong hai nghiên cứu sinh được trao học bổng của Google trong lĩnh vực Công nghệ phần mềm và Kỹ thuật lập trình.",
-        "link": "https://ai4code-hust.github.io/people/lecongthanh"
-      },
-      {
-        "date": "August 2023",
-        "datevn": "Tháng 8, 2023",
-        "content": "Congrats to Huu Hung and Tan on receiving PhD offer from Singapore Management University (#10 worldwide in Software Engineering - CSRanking)",
-        "contentvn": "Chúc mừng Hữu Hưng và Tân đã nhận được học bổng Tiến sĩ từ Đại học quản lí Singapore  (#10 trên toàn thế giới trong lĩnh vực Công nghệ Phần mềm - CSRanking)",
-        "link": "https://ai4code-hust.github.io/people/huuhungnguyen"
       }
     ],
     "collaborators": {
